@@ -19,16 +19,19 @@ public class RobotDemo {
         Robot wallE = new Robot();
         Thread.sleep(2000);
         wallE.keyPress(KeyEvent.VK_H);
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         wallE.keyPress(KeyEvent.VK_E);
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         wallE.keyPress(KeyEvent.VK_L);
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         wallE.keyPress(KeyEvent.VK_L);
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         wallE.keyPress(KeyEvent.VK_O);
 
+        Color color = wallE.getPixelColor(1000,1000);
+        System.out.println(color.toString());
 
+        wallE.mouseMove(500,500);
 
     }
 

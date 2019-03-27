@@ -12,7 +12,7 @@ public class DrawSS {
     public static void main(String[] args) throws AWTException, IOException {
 
         Robot wallE = new Robot();
-        Rectangle picture = new Rectangle(1000,1000);
+        Rectangle picture = new Rectangle(100,100,500,1000);
         String myFile = "./resources/img.jpg";
         BufferedImage image = wallE.createScreenCapture(picture);
         // save file
