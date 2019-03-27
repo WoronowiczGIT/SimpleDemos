@@ -1,5 +1,6 @@
 package SDA;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -26,6 +27,8 @@ public class RobotDemo {
         wallE.keyPress(KeyEvent.VK_L);
         Thread.sleep(2000);
         wallE.keyPress(KeyEvent.VK_O);
+
+
 
     }
 
