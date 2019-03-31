@@ -1,0 +1,7 @@
+Square Cant extend Rectangle because of methods incompatibility
+therefore square and rectangle extends Shape;
+
+Automatic and Manual transmission in a Car, cannot extend each other,
+the both only implement same interface -> change gear;
+
+conclusion -> mathematical assumptions do not always apply to computer science

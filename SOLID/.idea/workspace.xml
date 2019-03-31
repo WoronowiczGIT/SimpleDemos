@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05e99439-73f5-45ef-9c56-aab286cc21f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/About" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/MobileOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnSpotOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnlineOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/PayByBLIK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/RemotePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/About" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/AutomaticCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/GearBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/ManualCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/ChristmasDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/GoldCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/PlatiniumCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/ChainOfResponsibility.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/ATM/BasicNominal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/ATM/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/ATM/Nominal10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/ATM/Nominal100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/ATM/Nominal20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/ATM/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/PurchaseRequest/GlobalShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/PurchaseRequest/InternetShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/PurchaseRequest/LocalShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/PurchaseRequest/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/PurchaseRequest/PurchaseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/PurchaseRequest/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/Currencies/CurrencyPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/CurrencyPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/Currencies/KonwerterInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/KonwerterInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/Currencies/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/Currencies/PLN_USD_Konwerter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/PLN_USD_Konwerter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/Currencies/USD_PLN_Konwerter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/USD_PLN_Konwerter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/DrawCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/DrawCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/DrawShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/DrawShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/GraphicEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/GraphicEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/Graphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/AgeValidation/ValidateAdult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/AgeValidation/ValidateAdult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/AgeValidation/ValidateAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/AgeValidation/ValidateAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/AgeValidation/ValidateTeenAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/AgeValidation/ValidateTeenAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/EmailValidation/EmailValidatorBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/EmailValidation/EmailValidatorBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/EmailValidation/EmailValidatorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/EmailValidation/EmailValidatorInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/EmailValidation/EmailValidatorWP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/EmailValidation/EmailValidatorWP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/NamePresentation/NamePresentationInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/NamePresentation/NamePresentationInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/NamePresentation/ShortNamePresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/NamePresentation/ShortNamePresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/Taxes/CalculateTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/Taxes/CalculateTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/Taxes/CalculateVAT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/Taxes/CalculateVAT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/Taxes/Enterpreneur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/Taxes/Enterpreneur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/main/java/SDA/SOLID/SingleResponsibility/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SOLID/SingleResponsibility/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChainOfCommand/src/test/java/SDA/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloningObjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloningObjects/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Discount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/About">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/PayByBLIK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/MobileOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnlineOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnSpotOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/RemotePayment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/About" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/AutomaticTransmissionInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/ManualTransmissionInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/GearBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/AutomaticCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/ManualCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/AutomaticCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Discount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/ChristmasDiscount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/GoldCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/PlatiniumCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/About" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/PayByBLIK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/RemoteOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/RemotePayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnSpotOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnlineOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/MobileOrder.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="983" />
+    <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="InterfaceSegregation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554034630273" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05e99439-73f5-45ef-9c56-aab286cc21f4" name="Default Changelist" comment="" />
+      <created>1554016312421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554016312421</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/CurrencyPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/KonwerterInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/PLN_USD_Konwerter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/Currencies/USD_PLN_Konwerter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/DrawCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/DrawShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/OpenClose/DrawingObjects/GraphicEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/About">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/ChangeGear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/ManualTransmissionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/AutomaticTransmissionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/GearBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/ManualCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CarsAndGears/AutomaticCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/ChristmasDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/GoldCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/PlatiniumCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/LiskovSubstitution/CustomerDiscount/Discount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/About">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/RemoteOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnSpotOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/MobileOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/RemotePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/PayByBLIK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SOLID/InterfaceSegregation/OnlineOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

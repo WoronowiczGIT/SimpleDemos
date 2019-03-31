@@ -1,0 +1,2 @@
+Interface segregation is necessary when class which implements given interface
+do not use all of its methods.
