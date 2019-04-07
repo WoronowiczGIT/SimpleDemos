@@ -1,27 +1,28 @@
-package SDA.Lambdas.functional_interface;
+package SDA.Lambdas.functional_interface.Function;
 
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) {
 
-        Function<Integer,String> evenOdd = (Integer number) ->{
-            if(number%2==0){
+        Function<Integer, String> evenOdd = (Integer number) -> {
+            if (number % 2 == 0) {
                 return "even";
-            }else return  "odd";
+            } else return "odd";
         };
         System.out.println(evenOdd.apply(25));
 
 
-        Function<Float,Double> converterCtoK = (Float celc)-> (celc + 273.15);
+        Function<Float, Double> converterCtoK = (Float celc) -> (celc + 273.15);
         System.out.println(converterCtoK.apply(25f));
 
-        Function<User,String> userToCSV = (User user)->{
+        Function<User, String> userToCSV = (User user) -> {
             String result = "";
-            result += user.getName()+";";
-            result += user.getLastName()+";";
-            result += user.getAge()+";";
-            result += user.getPosition()+";";
+            result += user.getName() + ";";
+            result += user.getLastName() + ";";
+            result += user.getAge() + ";";
+            result += user.getPosition() + ";";
             return result;
         };
 
@@ -32,8 +33,8 @@ public class Main {
         user1.setPosition(Position.DESIGNER);
         System.out.println(userToCSV.apply(user1));
 
-        String[] userArray = {"olek","bolek","25"};
-        Function<String[],User> csvToUser = (String[] array)->{
+        String[] userArray = {"olek", "bolek", "25"};
+        Function<String[], User> csvToUser = (String[] array) -> {
             User user = new User();
             user.setName(array[0]);
             user.setLastName(array[1]);
@@ -43,7 +44,8 @@ public class Main {
         System.out.println(csvToUser.apply(userArray).getAge());
 
 
-
+        Predicate<Integer> greaterThen100 = (Integer number) -> number > 100;
+        System.out.println(greaterThen100.test(101));
 
     }
 

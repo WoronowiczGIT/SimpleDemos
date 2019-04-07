@@ -1,4 +1,4 @@
-package SDA.Lambdas.functional_interface;
+package SDA.Lambdas.functional_interface.Function;
 
 @FunctionalInterface // <- informujemy developerów, że w tym interfejsie nie moze byc wiecej  metod
 public interface Executor {
