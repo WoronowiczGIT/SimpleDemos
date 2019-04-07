@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8eeb8d5-aa14-4da3-889e-1d5a83cccda3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Supplier/RandomSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Consumer/ConsumerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CloningObjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloningObjects/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/ExecutorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/ExecutorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SOLID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOLID/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Supplier/RandomSupplier.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+            <state relative-caret-position="340">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Consumer/ConsumerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+            <state relative-caret-position="362">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Supplier/Supplier.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Supplier/RandomSupplier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Consumer/ConsumerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java" />
       </list>
     </option>
@@ -156,28 +152,6 @@
               <item name="Lambdas" type="462c0819:PsiDirectoryNode" />
               <item name="functional_interface" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JAVA8Features" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA8Features" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="Lambdas" type="462c0819:PsiDirectoryNode" />
-              <item name="functional_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Predicate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA8Features" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA8Features" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="Lambdas" type="462c0819:PsiDirectoryNode" />
-              <item name="functional_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Supplier" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -186,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554637172288" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554640603487" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -210,6 +184,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Predicator">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.Lambdas.functional_interface.Consumer.ConsumerDemo" />
+      <module name="JAVA8Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Lambdas.functional_interface.Consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExecutorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SDA.Lambdas.functional_interface.Function.ExecutorMain" />
       <module name="JAVA8Features" />
@@ -229,19 +216,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SDA.Lambdas.functional_interface.Function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.Lambdas.Downloader.Main" />
-      <module name="JAVA8Features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.Lambdas.Downloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,10 +252,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Predicator" />
+        <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.RandomSupplier" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.ExecutorMain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +286,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,7 +294,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,6 +439,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/IntPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Consumer/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Supplier/RandomSupplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -475,17 +473,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/IntPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+        <state relative-caret-position="340">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
