@@ -1,0 +1,5 @@
+Supplier:
+1. Napisz funkcję, która zwraca aktualną datę
+2. Napisz funkcję, która zwraca aktualną datę w formacie: dzień, miesiąc, rok
+3. Napisz funkcję, która zwraca aktualny dzień tygodnia
+4. Napisz funkcję, która zwraca 10 wylosowanych liczb z przedziału 1-100

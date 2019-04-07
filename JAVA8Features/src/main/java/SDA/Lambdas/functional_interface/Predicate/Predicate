@@ -1,0 +1,6 @@
+Predicate:
+1. Napisz funkcję, która zwraca czy podana liczba jest liczbą parzystą lub nieparzystą
+2. Napisz funkcję, która zwraca informację, czy rok jest przestępny lub nie
+3. Napisz funkcję, która sprawdzi czy podany użytkownik (User) jest pełnoletni bądź nie
+4. Napisz funkcję, która powinna sprawdzać czy podany numer telefonu jest poprawny.
+    Numer powinien się zaczynać od +48 i zawierać 9 cyfr.

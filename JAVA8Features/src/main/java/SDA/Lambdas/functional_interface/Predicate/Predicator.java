@@ -8,32 +8,36 @@ import java.util.function.Predicate;
 
 public class Predicator {
 
-    public static void main(String[] args) {
+    public boolean isLeapYear(Integer yr) {
+        Predicate<Integer> isLeapYear = (Integer year) -> {
+            return LocalDate.of(year, 1, 1).isLeapYear();
+        };
+        return isLeapYear.test(yr);
+    }
 
+    public Boolean isEven(Integer nr){
         Predicate<Integer> isEven = (Integer number) -> {
             if (number % 2 == 0) return true;
             return false;
         };
-        Integer number = 5;
-        System.out.println("is " + number + " even?" + isEven.test(number));
+        return isEven.test(nr);
+    }
 
-
-        Predicate<Integer> isLeapYear = (Integer year) -> {
-            return LocalDate.of(year, 1, 1).isLeapYear();
-        };
-        System.out.println("is year 2020 a leapYear?: " + isLeapYear.test(2020));
-
+    public Boolean isAdult(User u){
         Predicate<User> isAdult = (User user) -> {
             return user.getAge() > 18;
         };
-        User user = new User();
-        user.setAge(25);
-        System.out.println("is user Adult? " + isAdult.test(user));
+        return isAdult.test(u);
+    }
 
+    public Boolean isGreaterThenTen(Integer n){
         IntPredicate isGreaterThenTen = (x) -> {
             return x > 10;
         };
+        return isGreaterThenTen.test(n);
+    }
 
+    public Boolean isNumberValid(String n){
         Predicate<String> isNumberValid = (String phoneNr) -> {
             phoneNr = phoneNr.replace(" ", "");
             boolean hasPrefiks = phoneNr.substring(0, 3).contains("+48");
@@ -41,8 +45,7 @@ public class Predicator {
             boolean hasNumbers = phoneNr.substring(3).chars().allMatch(Character::isDigit);
             return hasPrefiks && hasLength && hasNumbers;
         };
-        System.out.println("is phone nr Valid?: " + isNumberValid.test("+48 222 222 232"));
-
-
+        return isNumberValid.test(n);
     }
+
 }
