@@ -1,4 +1,4 @@
-package SDA.ToDoList;
+package SDA.Comparator.ToDoList;
 
 public class Tester {
     public static void main(String[] args) {

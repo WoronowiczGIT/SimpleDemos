@@ -1,7 +1,5 @@
 package SDA.Comparator.UserCompare;
 
-import SDA.UserCompare.User;
-
 import java.util.Comparator;
 
 public class UserComparator {

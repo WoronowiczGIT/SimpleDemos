@@ -1,6 +1,4 @@
-package SDA.ToDoList;
-
-import SDA.ToDoList.Task;
+package SDA.Comparator.ToDoList;
 
 import java.util.Comparator;
 
