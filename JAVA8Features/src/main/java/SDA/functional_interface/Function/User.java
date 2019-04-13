@@ -1,4 +1,4 @@
-package SDA.Lambdas.functional_interface.Function;
+package SDA.functional_interface.Function;
 
 public class User {
     private String name;

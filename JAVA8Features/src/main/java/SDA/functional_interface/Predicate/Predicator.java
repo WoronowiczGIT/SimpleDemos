@@ -1,6 +1,6 @@
-package SDA.Lambdas.functional_interface.Predicate;
+package SDA.functional_interface.Predicate;
 
-import SDA.Lambdas.functional_interface.Function.User;
+import SDA.functional_interface.Function.User;
 
 import java.time.LocalDate;
 import java.util.function.IntPredicate;

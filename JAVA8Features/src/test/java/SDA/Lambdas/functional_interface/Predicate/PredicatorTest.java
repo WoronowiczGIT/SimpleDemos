@@ -1,9 +1,6 @@
 package SDA.Lambdas.functional_interface.Predicate;
 
-import SDA.Lambdas.functional_interface.Function.Main;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class PredicatorTest {
 

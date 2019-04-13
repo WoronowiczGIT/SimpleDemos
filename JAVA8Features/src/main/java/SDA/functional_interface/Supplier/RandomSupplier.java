@@ -1,4 +1,4 @@
-package SDA.Lambdas.functional_interface.Supplier;
+package SDA.functional_interface.Supplier;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

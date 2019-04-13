@@ -1,4 +1,4 @@
-package SDA.Lambdas.functional_interface.Consumer;
+package SDA.functional_interface.Consumer;
 
 public class User {
     Integer id;

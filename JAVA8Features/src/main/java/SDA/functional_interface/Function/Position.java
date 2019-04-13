@@ -1,4 +1,4 @@
-package SDA.Lambdas.functional_interface.Function;
+package SDA.functional_interface.Function;
 
 public enum Position {
     DEVELOPER, MENAGER,QA, DESIGNER;

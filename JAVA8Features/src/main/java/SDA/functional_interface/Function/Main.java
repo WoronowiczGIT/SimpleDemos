@@ -1,4 +1,4 @@
-package SDA.Lambdas.functional_interface.Function;
+package SDA.functional_interface.Function;
 
 import java.util.function.Function;
 import java.util.function.Predicate;
