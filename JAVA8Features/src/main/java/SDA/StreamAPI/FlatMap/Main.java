@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        // Flat map spłaszcza strukturę,
+        // Flat map spłaszcza strukturę, w odroznieniu od zwyklej mapy zwraca spłaszczony strumien danych
         List<List<String>> superListString = Arrays.asList(Arrays.asList("a","b"),Arrays.asList("c","d"));
 
         superListString.stream()
@@ -37,7 +37,6 @@ public class Main {
                 this.b = b;
             }
         }
-
         List<Rectangle> rectanglesList = Arrays.asList(new Rectangle(2,3),new Rectangle(5,5));
         List<Integer> areas = rectanglesList.stream()
                 .flatMap((Rectangle r)-> Stream.of(r.a*r.b))

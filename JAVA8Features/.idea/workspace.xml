@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8eeb8d5-aa14-4da3-889e-1d5a83cccda3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/ForEach/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/VODfiltring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/CollectionStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/VODplatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Referencje/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CloningObjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloningObjects/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeReview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeReview/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeReview/CodeReview.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Consumer/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Consumer/ConsumerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Consumer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Consumer/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/ExecutorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/ExecutorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Function" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/Function" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Function/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicate" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Predicate/Predicate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Predicate/Predicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Predicate/Predicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Supplier/RandomSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Supplier/RandomSupplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Supplier/Supplier" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Supplier/Supplier" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Lambdas/functional_interface/Zadania/Zadania" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/functional_interface/Zadania/Zadania" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SDA/Lambdas/functional_interface/Predicate/PredicatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SDA/Lambdas/functional_interface/Predicate/PredicatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SOLID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOLID/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="406">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/ForEach/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/CollectionStreams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="14" column="36" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="330">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,48 +49,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/VODplatform.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
-              <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+              <caret line="46" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/VODfiltring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#Video#0;class#VODfiltring#0" />
+                <element signature="class#Episode#0;class#VODfiltring#0" />
+                <element signature="method#Episode#0;class#Episode#0;class#VODfiltring#0" />
+                <element signature="class#Season#0;class#VODfiltring#0" />
+                <element signature="e#1383#1580#1" />
+                <element signature="e#1914#1949#1" />
+                <element signature="e#1234#1271#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Referencje/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            <state relative-caret-position="154">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,8 +148,13 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/ForEach/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/VODplatform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/CollectionStreams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/VODfiltring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Referencje/Main.java" />
       </list>
     </option>
   </component>
@@ -229,7 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555162438840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555250137193" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -260,35 +259,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.Lambdas.functional_interface.Consumer.ConsumerDemo" />
-      <module name="JAVA8Features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.Lambdas.functional_interface.Consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.ForEach.Main" />
-      <module name="JAVA8Features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.StreamAPI.ForEach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.FlatMap.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CollectionStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.FlatMap.CollectionStreams" />
       <module name="JAVA8Features" />
       <extension name="coverage">
         <pattern>
@@ -300,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.Map.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.Filter.Main" />
       <module name="JAVA8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.StreamAPI.Map.*" />
+          <option name="PATTERN" value="SDA.StreamAPI.Filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,29 +286,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicatorTest.check_if_x_is_greater_then_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.Referencje.Main" />
       <module name="JAVA8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.Lambdas.functional_interface.Predicate.*" />
+          <option name="PATTERN" value="SDA.StreamAPI.Referencje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SDA.Lambdas.functional_interface.Predicate" />
-      <option name="MAIN_CLASS_NAME" value="SDA.Lambdas.functional_interface.Predicate.PredicatorTest" />
-      <option name="METHOD_NAME" value="check_if_x_is_greater_then_10" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VODfiltring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.Filter.VODfiltring" />
+      <module name="JAVA8Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.StreamAPI.Filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VODplatform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.StreamAPI.FlatMap.VODplatform" />
+      <module name="JAVA8Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.StreamAPI.FlatMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.PredicatorTest.check_if_x_is_greater_then_10" />
-        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.VODfiltring" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.CollectionStreams" />
+        <item itemvalue="Application.VODplatform" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +366,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17673522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -398,6 +394,35 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17673522" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -594,16 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -623,6 +638,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/functional_interface/Function/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/ForEach/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="36" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -634,39 +679,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Map/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/ForEach/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="36" selection-start-line="14" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="406">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/CollectionStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/FlatMap/VODplatform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="46" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Filter/VODfiltring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Video#0;class#VODfiltring#0" />
+            <element signature="class#Episode#0;class#VODfiltring#0" />
+            <element signature="method#Episode#0;class#Episode#0;class#VODfiltring#0" />
+            <element signature="class#Season#0;class#VODfiltring#0" />
+            <element signature="e#1383#1580#1" />
+            <element signature="e#1914#1949#1" />
+            <element signature="e#1234#1271#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/StreamAPI/Referencje/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
