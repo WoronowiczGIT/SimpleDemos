@@ -2,28 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/Dispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/FireTruck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/CaffeTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/IGotTheBiggestHangover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/LatteButWithoutMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/RudesheimerCaffe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/Caffe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/CaffeBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/CaffeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/LiquorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/NamesGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/lastNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Fasada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchingContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballMenager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/clubNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/NamesGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/lastNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/names.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,37 +39,39 @@
     <session id="1210799743">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="45" />
-          <entry key="txt" value="2" />
+          <entry key="java" value="78" />
+          <entry key="txt" value="5" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="45" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="78" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="34" />
-          <entry key="java" value="8269" />
-          <entry key="txt" value="9" />
+          <entry key="dummy" value="49" />
+          <entry key="java" value="12676" />
+          <entry key="txt" value="18" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8269" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="JAVA" value="12676" />
+          <entry key="PLAIN_TEXT" value="67" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -77,23 +80,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Fasada.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1154">
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1702#1703#0" expanded="true" />
+                <element signature="e#1744#1745#0" expanded="true" />
+                <element signature="e#1776#1777#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1858#1859#0" expanded="true" />
+                <element signature="e#2398#2399#0" expanded="true" />
+                <element signature="e#2430#2431#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+                <element signature="e#2335#2336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Generator#0;class#Generator#0" />
+                <element signature="method#generatePlayer#0;class#Generator#0" />
+                <element signature="method#generateMenager#0;class#Generator#0" />
+                <element signature="method#generateTeam#0;class#Generator#0" />
+                <element signature="method#getTeamTogether#0;class#Generator#0" />
+                <element signature="method#choosePosition#0;class#Generator#0" />
+                <element signature="method#generateLeague#0;class#Generator#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-              </folding>
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,74 +154,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/FireTruck.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/nationalities.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="1326">
+              <caret line="78" selection-start-line="78" selection-end-line="78" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="52" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/NamesGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="19" column="154" selection-start-line="19" selection-start-column="154" selection-end-line="19" selection-end-column="154" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/lastNames.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3349">
-              <caret line="197" column="7" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Name.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/names.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -179,8 +232,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -191,28 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Exchange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Exchangeable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/NULLrate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNUSDrate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNEURrate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/AppController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/StateMachine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/MedicalRecord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/DefaultState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/PatientState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/WaitingState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/VisitingState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/Patient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/PatientService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/RegisteringState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/Coffe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/LiquorType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/TypeOfCoffe.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CoffeType.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/Coffee.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CoffeMaker/CoffeTemplate.java" />
@@ -241,7 +272,29 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/names.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/lastNames.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/SearchingContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/SearchForLastNames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/nationalities.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/SearchForNationalities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/SearchForNames.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/NamesGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchingContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/NamesGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/DataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballMenager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/clubNames.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Fasada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java" />
       </list>
     </option>
   </component>
@@ -267,6 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -324,12 +378,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555435453981" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA8Features" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555514528453" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m1rage\IdeaProjects\SimpleDemos\CodeReview\src\main\java\SDA\Streams\FootballLeague\TekstFiles" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -343,13 +401,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NamesGenerator">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.FunctionalInterface.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Fasada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.Streams.FootballLeague.DataGenerator.Fasada" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.FunctionalInterface.*" />
+          <option name="PATTERN" value="SDA.Streams.FootballLeague.DataGenerator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,25 +415,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.DesignPaterns.State.PatientsService.Main" />
+    <configuration name="FileToListAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.Streams.FootballLeague.DataGenerator.FileToListAdapter" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.DesignPaterns.State.PatientsService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.DesignPaterns.MetodaSzablonowa.Main" />
-      <module name="CodeReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.DesignPaterns.MetodaSzablonowa.*" />
+          <option name="PATTERN" value="SDA.Streams.FootballLeague.DataGenerator.SearchStrategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,8 +441,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NamesGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.Streams.FootballLeague.NamesGenerator" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.Streams.FootballLeague.Main" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
@@ -409,20 +454,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchForNationalities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.Streams.FootballLeague.DataGenerator.SearchStrategy.SearchForNationalities" />
+      <module name="CodeReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Streams.FootballLeague.DataGenerator.SearchStrategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.NamesGenerator" />
+      <item itemvalue="Application.FileToListAdapter" />
+      <item itemvalue="Application.SearchForNationalities" />
+      <item itemvalue="Application.Fasada" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NamesGenerator" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Fasada" />
+        <item itemvalue="Application.FileToListAdapter" />
+        <item itemvalue="Application.SearchForNationalities" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +501,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -451,8 +509,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
@@ -461,9 +517,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -507,52 +565,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Rates.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Exchange.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/NULLrate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNUSDrate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNEURrate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Exchangeable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/MedicalRecord.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/DefaultState.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/DrawSquare.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/BiConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -561,43 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#drawSquare#0;class#Main#0" />
-            <element signature="method#drawTanenbaum#0;class#Main#0" />
-            <element signature="method#showTime#0;class#Main#0" />
-            <element signature="method#showRandomDay#0;class#Main#0" />
-            <element signature="method#isEven#0;class#Main#0" />
-            <element signature="e#2671#2707#0" />
-            <element signature="method#isAllEven#0;class#Main#0" />
-            <element signature="method#printCar#0;class#Main#0" />
-            <element signature="e#3293#3328#0" />
-            <element signature="method#stringToDate#0;class#Main#0" />
-            <element signature="e#3830#3868#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/PatientService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,11 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,9 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,25 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,19 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,19 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,24 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/FireTruck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="262" column="53" selection-start-line="262" selection-start-column="53" selection-end-line="262" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -829,55 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="52" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -889,17 +737,333 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/lastNames.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3349">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/FireTruck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#drawSquare#0;class#Main#0" />
+            <element signature="method#drawTanenbaum#0;class#Main#0" />
+            <element signature="method#showTime#0;class#Main#0" />
+            <element signature="method#showRandomDay#0;class#Main#0" />
+            <element signature="method#isEven#0;class#Main#0" />
+            <element signature="method#isAllEven#0;class#Main#0" />
+            <element signature="method#printCar#0;class#Main#0" />
+            <element signature="method#stringToDate#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/lastNames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
           <caret line="197" column="7" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/NamesGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchingContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/DataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/MonthDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="312" column="28" selection-start-line="312" selection-start-column="28" selection-end-line="312" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballMenager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/clubNames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/nationalities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" selection-start-line="78" selection-end-line="78" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Fasada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1154">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2430#2431#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2335#2336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Generator#0;class#Generator#0" />
+            <element signature="method#generatePlayer#0;class#Generator#0" />
+            <element signature="method#generateMenager#0;class#Generator#0" />
+            <element signature="method#generateTeam#0;class#Generator#0" />
+            <element signature="method#getTeamTogether#0;class#Generator#0" />
+            <element signature="method#choosePosition#0;class#Generator#0" />
+            <element signature="method#generateLeague#0;class#Generator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="154" selection-start-line="19" selection-start-column="154" selection-end-line="19" selection-end-column="154" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
