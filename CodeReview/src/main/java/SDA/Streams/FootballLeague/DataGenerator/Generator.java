@@ -64,12 +64,12 @@ public class Generator {
 
         long goalKeepers = list.stream()
                 .map(footballPlayer -> footballPlayer.getPosition())
-                .filter(position -> equals(Position.GOALKEEPER))
+                .filter(position -> position.equals(Position.GOALKEEPER))
                 .count();
 
         long attackers = list.stream()
                 .map(footballPlayer -> footballPlayer.getPosition())
-                .filter(position -> equals(Position.ATTACK))
+                .filter(position -> position.equals(Position.ATTACK))
                 .count();
 
         if (goalKeepers < maxGoalKeepers) return Position.GOALKEEPER;

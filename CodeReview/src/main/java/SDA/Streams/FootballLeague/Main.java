@@ -3,10 +3,13 @@ package SDA.Streams.FootballLeague;
 import SDA.Streams.FootballLeague.DataGenerator.Fasada;
 import SDA.Streams.FootballLeague.DataGenerator.Generator;
 import SDA.Streams.FootballLeague.Models.FootballLeague;
+import SDA.Streams.FootballLeague.Models.FootballMenager;
+import SDA.Streams.FootballLeague.Models.FootballPlayer;
 
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static SDA.Streams.FootballLeague.DataGenerator.Fasada.getRandomBirthDay;
@@ -16,18 +19,46 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Generator g = new Generator();
-        List<FootballLeague> leagues = g.generateListOfLeagues(10);
+        List<FootballLeague> leagues = g.generateListOfLeagues(100);
 
-
-
-        Stream.of(liga).flatMap(footballLeague -> footballLeague.getTeams().stream())
-                .forEach(footballTeam -> System.out.println(footballTeam.getManager()
-                        .getName()));
 //        3.1. Na podstawie wszystkich dostępnych lig zwróć wszystkich treneerów
+        List<FootballMenager> menagers = leagues.stream()
+                .flatMap(league->league.getTeams().stream())
+                .map(footballTeam -> footballTeam.getManager())
+                .collect(Collectors.toList());
 //        3.2. Na podstawie wszystkich dostępnych lig zwróć nazwiska wszystkich trenenerów mających co najmniej 50 lat
+        List<FootballMenager> menagersOver50 = leagues.stream()
+                .flatMap(league->league.getTeams().stream())
+                .map(footballTeam -> footballTeam.getManager())
+                .filter(menager -> {
+                    int age = LocalDate.now().getYear() - menager.getDateOfBirth().getYear();
+                    return age >= 50; })
+                .collect(Collectors.toList());
+       // menagersOver50.stream().forEach(menager-> System.out.println(menager.getDateOfBirth()));
 //        3.3. Na podstawie wszystkich dostępnych lig zwróć wszystkich trenenerów mających co najwyżej 30 lat
+        List<FootballMenager> menagersUnder30 = leagues.stream()
+                .flatMap(league->league.getTeams().stream())
+                .map(footballTeam -> footballTeam.getManager())
+                .filter(menager -> {
+                    int age = LocalDate.now().getYear() - menager.getDateOfBirth().getYear();
+                    return age <= 30; })
+                .collect(Collectors.toList());
 //        3.4. Na podstawie wszystkich dostępnych lig zwróć wszystkich trenenerów narodowości niemieckiej
+        List<FootballMenager> germanMenagers = leagues.stream()
+                .flatMap(league -> league.getTeams().stream())
+                .map(footballTeam -> footballTeam.getManager())
+                .filter(menager -> menager.getNationality().equals("German"))
+                .collect(Collectors.toList());
+     //   germanMenagers.stream().forEach(menager-> System.out.println(menager.getName()+" "+ menager.getNationality()));
 //        3.5. Na podstawie wszystkich dostępnych lig zwróć wszystkich piłkarzy
+        List<FootballPlayer> allPlayersWorldWide= leagues.stream()
+                .flatMap(league -> league.getTeams().stream())
+                .flatMap(footballTeam -> footballTeam.getPlayers().stream())
+                .collect(Collectors.toList());
+
+        allPlayersWorldWide.stream().forEach(footballPlayer -> System.out.println(footballPlayer.getName()+" "+footballPlayer.getPosition()));
+
+
 //        3.6. Na podstawie wszystkich dostępnych lig zwróć wszystkich piłkarzy - atakujacych
 //        3.7.  Na podstawie wszystkich dostępnych lig zwróć imiona wszystkich piłkarzy - obrońców mających mniej niż 30 lat
 //        3.8. Na podstawie wszystkich dostępnych lig zwróć wszystkich piłkarzy - bramkarzy mających co najmniej 50 lat

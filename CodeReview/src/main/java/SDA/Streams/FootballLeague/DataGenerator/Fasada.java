@@ -45,7 +45,7 @@ public class Fasada {
 
     public static LocalDate getRandomBirthDay() {
         Random random = new Random();
-        int day = random.nextInt(365);
+        int day = random.nextInt(364)+1;
         int minimumAge = 20;
         int maximumAge = 55;
         int lastYearPossible = LocalDate.now().getYear() - minimumAge;
