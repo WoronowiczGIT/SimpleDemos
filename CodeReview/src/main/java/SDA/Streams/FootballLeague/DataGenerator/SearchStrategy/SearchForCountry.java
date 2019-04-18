@@ -14,7 +14,7 @@ public class SearchForCountry implements SearchingContext {
             for (int i = 0; i < input.length(); i++) {
                 if (isLetter(input.charAt(i))) {
                     out += input.charAt(i);
-                }
+                }else break;
             }
             return out;
         } else return "England";
