@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Generator g = new Generator();
-        List<FootballLeague> leagues = g.generateListOfLeagues(100);
+        List<FootballLeague> leagues = g.generateListOfLeagues(10);
 
 //        3.1. Na podstawie wszystkich dostępnych lig zwróć wszystkich treneerów
         List<FootballMenager> menagers = leagues.stream()
@@ -111,11 +111,30 @@ public class Main {
                 .filter(league -> league.getCountry().equals("Poland"))
                 .flatMap(league -> league.getTeams().stream())
                 .collect(Collectors.toList());
-        leagues.stream().forEach(league -> System.out.println(league.getCountry()));
-        polishTeams.stream().forEach(team->team.getManager().getName());
+//        leagues.stream()
+//                .filter(league -> league.getCountry().equals("Poland"))
+//                .forEach(league -> System.out.println(league.getCountry()+" "+league.getTeams().size()));
 //        3.13. Na podstawie wszystkich dostępnych lig zwróć wszystkie kluby mające ponad 50 lat
-//        3.14. Na podstawie wszystkich dostępnych lig zwróć wszystkie te które zawierają w swoich rozgrywkach co najmniej 3 zespoły
-//        3.15. Na podstawie wszystkich dostępnych lig zwróć wszystkie kluby pierwszoligowe (level == 1)
+        List<FootballTeam> teamsOver50 = leagues.stream()
+                .flatMap(league -> league.getTeams().stream())
+                .filter(team -> team.getAge()>50).collect(Collectors.toList());
 
+        //teamsOver50.stream().forEach(team -> System.out.println(team.getAge()+" "+team.getName()));
+//        3.14. Na podstawie wszystkich dostępnych lig zwróć wszystkie te które zawierają w swoich rozgrywkach co najmniej 12 zespołów
+        List<FootballLeague> leaguesOver12 = leagues.stream()
+                .filter(league -> league.getTeams().size()>=12)
+                .collect(Collectors.toList());
+
+      //  leaguesOver12.stream().forEach(league -> System.out.println(league.getTeams().size()+" "+league.getName()));
+//        3.15. Na podstawie wszystkich dostępnych lig zwróć wszystkie kluby pierwszoligowe (level == 1)
+        leagues.stream()
+                .filter(league -> league.getLevel()==1)
+                .flatMap(league -> league.getTeams().stream())
+                .forEach(team-> System.out.println(team.getName()));
+       long firstLeague =  leagues.stream()
+               .filter(league -> league.getLevel()==1)
+               .flatMap(league -> league.getTeams().stream())
+               .count();
+        System.out.println(firstLeague);
     }
 }
