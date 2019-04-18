@@ -1,0 +1,14 @@
+
+get json string from file
+
+make json object basing on string
+
+object exist, and is not null - > true/false
+
+
+Start --> SetUp Connection --> start a Loop  -->
+         v----------|
+> open connection   |
+> check Response    |
+> fetch data -------|
+
