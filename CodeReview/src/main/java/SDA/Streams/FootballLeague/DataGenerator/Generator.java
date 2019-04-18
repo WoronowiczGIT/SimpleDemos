@@ -81,7 +81,7 @@ public class Generator {
         else return Position.DEFENCE;
     }
 
-   public FootballLeague generateLeague(int numberOfClubs) throws IOException {
+    FootballLeague generateLeague(int numberOfClubs) throws IOException {
 
         String country = (String) getRandomValueFromList(fasada.getCountries());
         String name = country + " LEAGUE!";
@@ -93,6 +93,16 @@ public class Generator {
         }
         FootballLeague league = new FootballLeague(name,country,lvl,teams);
         return league;
+    }
+
+    public List<FootballLeague> generateListOfLeagues(int numberOfLeagues) throws IOException {
+        List<FootballLeague> leagues = new ArrayList<>();
+        Random random = new Random();
+        while(leagues.size() < numberOfLeagues){
+            int teamsPerLeague = random.nextInt(10)+8;
+            leagues.add(generateLeague(teamsPerLeague));
+        }
+        return leagues;
     }
 
 
