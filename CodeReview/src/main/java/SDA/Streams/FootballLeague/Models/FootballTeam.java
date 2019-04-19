@@ -14,6 +14,7 @@ public class FootballTeam {
         this.manager = manager;
         this.age = age;
     }
+    public FootballTeam(){}
 
     public String getName() {
         return name;

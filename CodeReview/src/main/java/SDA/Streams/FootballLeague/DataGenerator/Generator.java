@@ -8,43 +8,49 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static SDA.Streams.FootballLeague.DataGenerator.Fasada.getRandomBirthDay;
-import static SDA.Streams.FootballLeague.DataGenerator.Fasada.getRandomValueFromList;
+import static SDA.Streams.FootballLeague.DataGenerator.Repository.getRandomBirthDay;
+import static SDA.Streams.FootballLeague.DataGenerator.Repository.getRandomValueFromList;
 
 public class Generator {
-    private Fasada fasada;
+    private Repository repository;
 
     public Generator() throws IOException {
-        this.fasada = new Fasada();
-        fasada.setUP();
+        this.repository = new Repository();
+        repository.setUP();
     }
 
-    FootballPlayer generatePlayer() throws IOException {
-        String name = (String) getRandomValueFromList(fasada.getNames());
-        String lastName = (String) getRandomValueFromList(fasada.getLastNames());
-        LocalDate dateOfBirth = getRandomBirthDay();
+    public List<FootballLeague> generateLeagues(int numberOfLeagues) {
+        List<FootballLeague> leagues = new ArrayList<>();
 
-        return new FootballPlayer(name, lastName, Position.NULLPOSITION, dateOfBirth);
+        while (numberOfLeagues > leagues.size()) {
+            leagues.add(new FootballLeague());
+        }
+        leagues.stream().forEach(league -> {
+            league.setName(getRandomValueFromList(repository.getCountries()) + "LEAGUE!");
+            league.setCountry((String) getRandomValueFromList(repository.getCountries()));
+            league.setLevel(new Random().nextInt(3) + 1);
+            league.setTeams(generateTeams(new Random().nextInt(10) + 10));
+        });
+        return leagues;
     }
+    List<FootballTeam> generateTeams(int numberOfTeams) {
+        List<FootballTeam> teams = new ArrayList<>();
 
-    FootballMenager generateMenager() throws IOException {
-        String name = (String) getRandomValueFromList(fasada.getNames());
-        String lastName = (String) getRandomValueFromList(fasada.getLastNames());
-        String nationality = (String) getRandomValueFromList(fasada.getNationalities());
-        LocalDate dateOfBirth = getRandomBirthDay();
-
-        return new FootballMenager(name, lastName, nationality, dateOfBirth);
+        while (numberOfTeams > teams.size()) {
+            teams.add(new FootballTeam());
+        }
+        teams.stream().forEach(team -> {
+            try {
+                team.setAge(new Random().nextInt(100) + 1);
+                team.setName((String) getRandomValueFromList(repository.getClubNames()));
+                team.setManager(generateMenager());
+                team.setPlayers(getTeamTogether());
+            } catch (IOException e) {
+                System.out.println("error while creating team " + team.getName());
+            }
+        });
+        return teams;
     }
-
-    FootballTeam generateTeam() throws IOException {
-        String clubName = (String) getRandomValueFromList(fasada.getClubNames());
-        FootballMenager menager = generateMenager();
-        Integer age = new Random().nextInt(100);
-        List<FootballPlayer> players = getTeamTogether();
-
-        return new FootballTeam(clubName, players, menager, age);
-    }
-
     List<FootballPlayer> getTeamTogether() throws IOException {
         List<FootballPlayer> list = new ArrayList<>();
 
@@ -57,7 +63,6 @@ public class Generator {
         }
         return list;
     }
-
     Position choosePosition(List<FootballPlayer> list) {
         int maxGoalKeepers = 1;
         int maxAttackers = 3;
@@ -81,29 +86,25 @@ public class Generator {
         else return Position.DEFENCE;
     }
 
-    FootballLeague generateLeague(int numberOfClubs) throws IOException {
+    FootballPlayer generatePlayer() throws IOException {
+        String name = (String) getRandomValueFromList(repository.getNames());
+        String lastName = (String) getRandomValueFromList(repository.getLastNames());
+        LocalDate dateOfBirth = getRandomBirthDay();
 
-        String country = (String) getRandomValueFromList(fasada.getCountries());
-        String name = country + " LEAGUE!";
-        Integer lvl = new Random().nextInt(3) + 1;
+        return new FootballPlayer(name, lastName, Position.NULLPOSITION, dateOfBirth);
+    }
+    FootballMenager generateMenager() throws IOException {
+        String name = (String) getRandomValueFromList(repository.getNames());
+        String lastName = (String) getRandomValueFromList(repository.getLastNames());
+        String nationality = (String) getRandomValueFromList(repository.getNationalities());
+        LocalDate dateOfBirth = getRandomBirthDay();
 
-        List<FootballTeam> teams = new ArrayList<>();
-        while (teams.size() < numberOfClubs) {
-            teams.add(generateTeam());
-        }
-        FootballLeague league = new FootballLeague(name,country,lvl,teams);
-        return league;
+        return new FootballMenager(name, lastName, nationality, dateOfBirth);
     }
 
-    public List<FootballLeague> generateListOfLeagues(int numberOfLeagues) throws IOException {
-        List<FootballLeague> leagues = new ArrayList<>();
-        Random random = new Random();
-        while(leagues.size() < numberOfLeagues){
-            int teamsPerLeague = random.nextInt(10)+8;
-            leagues.add(generateLeague(teamsPerLeague));
-        }
-        return leagues;
-    }
+
+
+
 
 
 }

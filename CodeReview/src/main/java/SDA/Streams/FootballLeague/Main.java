@@ -1,6 +1,5 @@
 package SDA.Streams.FootballLeague;
 
-import SDA.Streams.FootballLeague.DataGenerator.Fasada;
 import SDA.Streams.FootballLeague.DataGenerator.Generator;
 import SDA.Streams.FootballLeague.Models.*;
 
@@ -9,16 +8,12 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import static SDA.Streams.FootballLeague.DataGenerator.Fasada.getRandomBirthDay;
-import static SDA.Streams.FootballLeague.DataGenerator.Fasada.getRandomValueFromList;
 
 public class Main {
     public static void main(String[] args) throws IOException {
 
         Generator g = new Generator();
-        List<FootballLeague> leagues = g.generateListOfLeagues(10);
+        List<FootballLeague> leagues = g.generateLeagues(100);
 
 //        3.1. Na podstawie wszystkich dostępnych lig zwróć wszystkich treneerów
         List<FootballMenager> menagers = leagues.stream()

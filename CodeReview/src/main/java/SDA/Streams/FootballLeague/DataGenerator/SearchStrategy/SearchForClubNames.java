@@ -6,4 +6,6 @@ public class SearchForClubNames implements SearchingContext {
         String[] clubName = input.split("-");
         return clubName[0];
     }
+
+
 }

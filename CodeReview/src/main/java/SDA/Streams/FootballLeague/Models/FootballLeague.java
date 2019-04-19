@@ -14,6 +14,7 @@ public class FootballLeague {
         this.level = level;
         this.teams = teams;
     }
+    public FootballLeague(){}
 
     public String getName() {
         return name;

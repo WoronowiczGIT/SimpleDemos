@@ -10,21 +10,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Fasada {
+public class Repository {
     private List<String> names;
     private List<String> lastNames;
     private List<String> nationalities;
     private List<String> clubNames;
     private List<String> countries;
-    private FileToListAdapter adapter;
+    private FileToListConverter adapter;
 
-    public Fasada() throws IOException {
+    public Repository() throws IOException {
         this.names = new ArrayList<>();
         this.lastNames = new ArrayList<>();
         this.nationalities = new ArrayList<>();
         this.clubNames = new ArrayList<>();
         this.countries = new ArrayList<>();
-        this.adapter = new FileToListAdapter();
+        this.adapter = new FileToListConverter();
         setUP();
     }
 
