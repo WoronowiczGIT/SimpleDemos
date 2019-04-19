@@ -7,11 +7,11 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class JSONReciever {
+public class JSONReceiver {
     private HttpURLConnection connection;
     private URL url;
     //String address = "http://api.open-notify.org/iss-now.json";
-    JSONReciever(String address) throws MalformedURLException {
+    JSONReceiver(String address) throws MalformedURLException {
         this.url = new URL(address);
     }
 
@@ -35,14 +35,14 @@ public class JSONReciever {
         return response.toString();
     }
 
-    public String recieve() throws IOException {
+    public String receive() throws IOException {
         try {
             openConnection();
             checkResponse();
             String JSON = getJSON();
             return JSON;
         }catch (IOException e){
-            System.out.println("faild to recieve data");
+            System.out.println("faild to receive data");
         }
         return null;
     }

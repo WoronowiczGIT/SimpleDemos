@@ -6,9 +6,16 @@ make json object basing on string
 object exist, and is not null - > true/false
 
 
-Start --> SetUp Connection --> start a Loop  -->
-         v----------|
-> open connection   |
-> check Response    |
-> fetch data -------|
+Start --> SetUp Connection -->
+thread 1
+--> connect -> check connection response -> fetchData --> save <--return
+thread 2
+--> w8 for data to be saved -->parse to objects --> calculate --> save displayable <-- return
+thread 3
+--> w8 for displayable --> display <-- return
+
+ToDo:
+
+Implement NULLPosition
+
 

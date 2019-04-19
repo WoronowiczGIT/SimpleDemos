@@ -1,10 +1,13 @@
 package SDA.IntiveISSTracker;
 
+import SDA.IntiveISSTracker.Model.Position;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class JSONConwerter {
+import java.io.IOException;
+
+public class JSONConverter {
 
     private JSONObject JSONtoPOJO(String JSONString) throws ParseException {
         JSONParser parser = new JSONParser();
@@ -17,7 +20,7 @@ public class JSONConwerter {
         return time;
     }
 
-    private Double getAngularCordinate(JSONObject position, String typeOfCoordinate){
+    private Double getAngularCoordinate(JSONObject position, String typeOfCoordinate){
         Double coordinate = Double.valueOf((String) position.get(typeOfCoordinate));
         return coordinate;
     }
@@ -25,8 +28,8 @@ public class JSONConwerter {
     private Position JSONtoPosition(JSONObject obj){
         long time = getTimeStamp(obj);
         JSONObject position = new JSONObject((JSONObject) obj.get("iss_position"));
-        Double longitude = getAngularCordinate(position,"longitude");
-        Double latitude = getAngularCordinate(position,"latitude");
+        Double longitude = getAngularCoordinate(position,"longitude");
+        Double latitude = getAngularCoordinate(position,"latitude");
         return new Position(time,longitude,latitude);
     }
 
@@ -39,5 +42,15 @@ public class JSONConwerter {
             System.out.println("invalid JSON string");
         }
         return null;
+    }
+
+    public static void main(String[] args) throws IOException, ParseException {
+        String address = "http://api.open-notify.org/iss-now.json";
+        JSONReceiver reciever = new JSONReceiver(address);
+        JSONConverter converter = new JSONConverter();
+        Position pos = converter.getPosition(reciever.receive());
+        System.out.println(pos.getTimeStamp()+" lat: "+pos.getLatitude()+" long: "+pos.getLongitude());
+
+
     }
 }

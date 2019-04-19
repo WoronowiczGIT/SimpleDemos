@@ -1,4 +1,4 @@
-package SDA.IntiveISSTracker;
+package SDA.IntiveISSTracker.Model;
 
 public class Position {
     private long timeStamp;

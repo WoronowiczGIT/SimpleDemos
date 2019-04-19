@@ -1,9 +1,6 @@
-package SDA.IntiveISSTracker;
+package SDA.IntiveISSTracker.Threads;
 
 
-import jdk.nashorn.internal.objects.Global;
-import jdk.nashorn.internal.runtime.Context;
-import netscape.javascript.JSObject;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
