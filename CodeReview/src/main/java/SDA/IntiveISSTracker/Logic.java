@@ -2,30 +2,31 @@ package SDA.IntiveISSTracker;
 
 import SDA.IntiveISSTracker.Model.Position;
 
-public class Logic {
-
-    public static double getSpeed(Position oldPosition, Position newPosition) {
-        long oldTime = oldPosition.getTimeStamp();
-        long newTime = newPosition.getTimeStamp();
-
-        long timeInSeconds =  (newTime - oldTime);
-        Double distanceInKm = getDistance(oldPosition,newPosition);
-
-        Double velocity = distanceInKm/timeInSeconds;
-        return velocity*3600;
+ abstract class Logic {
+     long getTimeInSec(Position oldPosition, Position newPosition) {
+        return newPosition.getTimeStamp() - oldPosition.getTimeStamp();
     }
 
-   static public Double getDistance(Position oldPosition, Position newPosition){
+     double getSpeedInKmH(Position oldPosition, Position newPosition) {
+
+        long timeInSeconds = getTimeInSec(oldPosition, newPosition);
+        double distanceInKm = getDistanceInKm(oldPosition, newPosition);
+
+        double velocity = distanceInKm / timeInSeconds;
+        return velocity * 3600;
+    }
+
+     Double getDistanceInKm(Position oldPosition, Position newPosition) {
         double oldLatitude = oldPosition.getLatitude();
         double oldLongitude = oldPosition.getLongitude();
         double newLatitude = newPosition.getLatitude();
         double newLongitude = newPosition.getLongitude();
 
-        Double distance = calculateDistance(oldLatitude,oldLongitude,newLatitude,newLongitude);
+        Double distance = calculateDistance(oldLatitude, oldLongitude, newLatitude, newLongitude);
         return distance;
     }
 
-   private static double calculateDistance(double lat1, double long1, double lat2, double long2) {
+    private static double calculateDistance(double lat1, double long1, double lat2, double long2) {
         double earthRadius = 6371;
         double distance = Math.acos(Math.sin(lat2 * Math.PI / 180.0) * Math.sin(lat1 * Math.PI / 180.0) +
                 Math.cos(lat2 * Math.PI / 180.0) * Math.cos(lat1 * Math.PI / 180.0) *

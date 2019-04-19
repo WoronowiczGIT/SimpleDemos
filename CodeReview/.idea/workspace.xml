@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/Asset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ProcessingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ReadingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/APIConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/APIConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONtoPOJOConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ProcessingData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +37,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
-          <entry key="java" value="92" />
+          <entry key="java" value="94" />
           <entry key="txt" value="11" />
           <entry key="xml" value="2" />
         </counts>
@@ -48,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="92" />
+          <entry key="JAVA" value="94" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="2" />
         </counts>
@@ -56,15 +53,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="49" />
-          <entry key="java" value="18893" />
-          <entry key="txt" value="960" />
+          <entry key="java" value="20142" />
+          <entry key="txt" value="995" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18893" />
-          <entry key="PLAIN_TEXT" value="1009" />
+          <entry key="JAVA" value="20142" />
+          <entry key="PLAIN_TEXT" value="1044" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -89,17 +86,29 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Logic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+                <state relative-caret-position="17">
+                  <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConverter.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataProcessor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+                <state relative-caret-position="323">
+                  <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONtoPOJOConverter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="45" selection-start-line="45" selection-end-line="45" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -110,7 +119,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONReceiver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
+                <state relative-caret-position="103">
                   <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -139,8 +148,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+                <state relative-caret-position="425">
+                  <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -149,10 +158,36 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ReadingData.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#275#276#0" expanded="true" />
+                    <element signature="e#309#310#0" expanded="true" />
+                    <element signature="e#365#366#0" expanded="true" />
+                    <element signature="e#413#414#0" expanded="true" />
+                    <element signature="e#461#462#0" expanded="true" />
+                    <element signature="e#501#502#0" expanded="true" />
+                    <element signature="e#541#542#0" expanded="true" />
+                    <element signature="e#573#574#0" expanded="true" />
+                    <element signature="e#568#569#0" expanded="true" />
+                    <element signature="e#618#619#0" expanded="true" />
+                    <element signature="e#668#669#0" expanded="true" />
+                    <element signature="e#710#711#0" expanded="true" />
+                    <element signature="e#805#806#0" expanded="true" />
+                    <element signature="e#833#834#0" expanded="true" />
+                    <element signature="e#872#873#0" expanded="true" />
+                    <element signature="e#907#908#0" expanded="true" />
+                    <element signature="e#942#943#0" expanded="true" />
+                    <element signature="e#973#974#0" expanded="true" />
+                    <element signature="e#1004#1005#0" expanded="true" />
+                    <element signature="e#1031#1032#0" expanded="true" />
+                    <element signature="e#1071#1072#0" expanded="true" />
+                    <element signature="e#1107#1108#0" expanded="true" />
+                    <element signature="e#1143#1144#0" expanded="true" />
+                    <element signature="e#1175#1176#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -169,20 +204,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ProcessingData.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
@@ -191,11 +217,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -224,13 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/Dispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Names.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Name.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/names.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/lastNames.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/SearchingContext.java" />
@@ -266,14 +285,21 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/APIConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/JSONConwerter.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConwerter.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONReciever.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataProcessing.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/APIConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONtoPOJOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Presenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataPackage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ProcessData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/DataProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/ProcessingData.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Logic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" />
       </list>
     </option>
@@ -351,10 +377,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555673660969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555683560999" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTTPprotocol" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="SDA.IntiveISSTracker" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\m1rage\IdeaProjects\SimpleDemos\CodeReview\src\main\java\SDA\Streams\FootballLeague\TekstFiles" />
     </key>
@@ -377,20 +406,7 @@
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.IntiveISSTracker.Threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.IntiveISSTracker.JSONConverter" />
-      <module name="CodeReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.IntiveISSTracker.Threads.*" />
+          <option name="PATTERN" value="SDA.IntiveISSTracker.Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,7 +419,7 @@
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.IntiveISSTracker.Threads.*" />
+          <option name="PATTERN" value="SDA.IntiveISSTracker.Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,12 +427,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.IntiveISSTracker.Main" />
+    <configuration name="JSONtoPOJOConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.IntiveISSTracker.JSONtoPOJOConverter" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.IntiveISSTracker.*" />
+          <option name="PATTERN" value="SDA.IntiveISSTracker.Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,17 +453,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.IntiveISSTracker.Main" />
+      <module name="CodeReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.IntiveISSTracker.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.APIConnection" />
       <item itemvalue="Application.JSONReceiver" />
-      <item itemvalue="Application.JSONConverter" />
+      <item itemvalue="Application.JSONtoPOJOConverter" />
       <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.JSONConverter" />
+        <item itemvalue="Application.JSONtoPOJOConverter" />
         <item itemvalue="Application.JSONReceiver" />
         <item itemvalue="Application.APIConnection" />
         <item itemvalue="Application.Main" />
@@ -471,7 +500,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,7 +510,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,20 +564,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="5944" column="26" selection-start-line="5944" selection-start-column="26" selection-end-line="5944" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -859,37 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ProcessingData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -922,17 +906,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Logic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONtoPOJOConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="103">
           <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/ProcessingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Logic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -941,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="425">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

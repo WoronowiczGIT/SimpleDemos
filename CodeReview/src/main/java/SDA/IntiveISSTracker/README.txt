@@ -1,27 +1,28 @@
-Korzystając z języka programowania wskazanego przez Ciebie w formularzu rekrutacyjnym,
-napisz aplikację pokazującą informacje o ruchuMiędzynarodowejStacjiKosmicznej (ISS).
- Rozwiązanie prześlij w postaci linku do repozytorium lub paczki z samym kodem programu
- na adres patronage.wroclaw@intive.com.
+Template:
+JSONReceiver:
+- Connects to API,
+- Checks connection
+- Returns JSON as String
+- Returns null in case of connection error.
 
- Wymagania:
- • Wykorzystaj dane udostępniane przez API
- http://open-notify.org/Open-Notify-API/ISS-Location-Now/
+JSONtoPOJO:
+- Converts JSON String into java JSONObject
+- Converts JSONObject into Position Object
+- Returns Position Object
+- Returns null in case of invalid String
 
- •Przedstaw użytkownikowi następujące dane:
- oprędkość ISS na podstawie dwóch odczytów,
- odroga przebyta przez ISS od początku zapisanych odczytów.
+Logic:
+- Contains converting methods that use Position objects
+- Does not validate input data - therefore declared abstract
 
- •Program musi dać się łatwo skompilować i uruchomić na standardowym środowisku.
+DataRepository:
+- Uses methods of Logic Class to create DataPackage Object
 
- Kryteria oceny:
+Main:
 
- •funkcjonalność
- •jakość kodu (przejrzystość, utrzymywalność, struktura)
- •użycie najnowszych technologii
- •user experience
- •niezawodność
 
- Zadanie celowo jest sformułowane bardzo ogólnie.
- Jeśli coś nie jest określone, możesz zrealizować je w sposób dogodny dla siebie.
- Nie ma żadnych preferowanych rozwiązań czy technologii poza wymienionymi.
- Jeśli jesteś w stanie uzasadnić swój wybór, to wystarczy :)
+Bugs:
+Figure out why time stamp is fucked
+(is it API fault or need to implement multithreading)
+ToDo:
+Implement NULLPosition

@@ -5,24 +5,19 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import java.io.IOException;
-
-public class JSONConverter {
+class JSONtoPOJOConverter {
 
     private JSONObject JSONtoPOJO(String JSONString) throws ParseException {
         JSONParser parser = new JSONParser();
-        JSONObject object = (JSONObject) parser.parse(JSONString);
-        return object;
+        return (JSONObject) parser.parse(JSONString);
     }
 
     private long getTimeStamp(JSONObject object){
-        long time = (long) object.get("timestamp");
-        return time;
+        return (long) object.get("timestamp");
     }
 
     private Double getAngularCoordinate(JSONObject position, String typeOfCoordinate){
-        Double coordinate = Double.valueOf((String) position.get(typeOfCoordinate));
-        return coordinate;
+        return Double.valueOf((String) position.get(typeOfCoordinate));
     }
 
     private Position JSONtoPosition(JSONObject obj){
@@ -33,24 +28,13 @@ public class JSONConverter {
         return new Position(time,longitude,latitude);
     }
 
-    public Position getPosition(String json) throws ParseException {
+    Position getPosition(String json) throws ParseException {
         try {
             JSONObject obj = JSONtoPOJO(json);
-            Position position = JSONtoPosition(obj);
-            return position;
+            return JSONtoPosition(obj);
         }catch (NullPointerException e){
             System.out.println("invalid JSON string");
         }
         return null;
-    }
-
-    public static void main(String[] args) throws IOException, ParseException {
-        String address = "http://api.open-notify.org/iss-now.json";
-        JSONReceiver reciever = new JSONReceiver(address);
-        JSONConverter converter = new JSONConverter();
-        Position pos = converter.getPosition(reciever.receive());
-        System.out.println(pos.getTimeStamp()+" lat: "+pos.getLatitude()+" long: "+pos.getLongitude());
-
-
     }
 }

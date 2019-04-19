@@ -1,32 +1,36 @@
 package SDA.IntiveISSTracker;
-
+import SDA.IntiveISSTracker.Model.DataPackage;
 import SDA.IntiveISSTracker.Model.Position;
 import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 public class Main {
     public static void main(String[] args) throws IOException, ParseException, InterruptedException {
         String address = "http://api.open-notify.org/iss-now.json";
-       JSONConverter converter = new JSONConverter();
-       JSONReceiver reciever = new JSONReceiver(address);
-        Double totalDistance = 0D;
+        int clientPollInterval = 5000;
+        JSONtoPOJOConverter converter = new JSONtoPOJOConverter();
+        JSONReceiver receiver = new JSONReceiver(address);
+        DataRepository repository = new DataRepository();
 
-        Position oldPosition = converter.getPosition(reciever.receive());
-       while (true){
-           Thread.sleep(5000);
-        Position newPosition = converter.getPosition(reciever.receive());
-        double distance = Logic.getDistance(oldPosition,newPosition);
-        distance = Math.round(distance);
-        double speed = Logic.getSpeed(oldPosition,newPosition);
-        speed = Math.round(speed);
-
-        totalDistance+=Math.round(distance);
-
-           System.out.println("speed: "+speed+" Distance from last point: "+distance+" total distance: "+totalDistance);
-        oldPosition = newPosition;
-
-       }
+        Position oldPosition = converter.getPosition(receiver.receive());
+        while (true) {
+            Thread.sleep(clientPollInterval);
+            String JSON = receiver.receive();
+            Position newPosition = converter.getPosition(JSON);
+            DataPackage data = repository.getDisplayableData(oldPosition,newPosition);
+            Presenter(data);
+            oldPosition = newPosition;
+        }
     }
+
+    static private void Presenter(DataPackage dataPackage){
+        System.out.println(  " speed: "         +(int)dataPackage.getSpeed()         + " km/h,"
+                            +" distance: "      +(int)dataPackage.getDistance()      + " km,"
+                            +" time: "          +(int)dataPackage.getTime()          + " sec,"
+                            +" total time: "    +(int)dataPackage.getTotalTime()     + " sec,"
+                            +" total distance: "+(int)dataPackage.getTotalDistance() + " km,"
+                            +" avarage speed: " +(int)dataPackage.getAvarageSpeed()  + " km/h.");
+        }
+
 }
