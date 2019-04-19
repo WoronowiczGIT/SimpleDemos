@@ -57,7 +57,7 @@ public class APIConnection {
         apiConnection.checkResponse();
         //getData
         String json1 = apiConnection.fetchJSON();
-        Thread.sleep(60000);
+        Thread.sleep(2000);
         apiConnection.setUpConnection();
         String json2 = apiConnection.fetchJSON();
 
