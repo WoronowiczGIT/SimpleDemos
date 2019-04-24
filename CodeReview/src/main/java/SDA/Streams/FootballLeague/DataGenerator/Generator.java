@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.IntStream;
 
 import static SDA.Streams.FootballLeague.DataGenerator.Repository.getRandomBirthDay;
 import static SDA.Streams.FootballLeague.DataGenerator.Repository.getRandomValueFromList;
@@ -22,9 +23,9 @@ public class Generator {
     public List<FootballLeague> generateLeagues(int numberOfLeagues) {
         List<FootballLeague> leagues = new ArrayList<>();
 
-        while (numberOfLeagues > leagues.size()) {
-            leagues.add(new FootballLeague());
-        }
+        IntStream.range(0,numberOfLeagues)
+                .forEach(integer->leagues.add(new FootballLeague()));
+
         leagues.stream().forEach(league -> {
             league.setName(getRandomValueFromList(repository.getCountries()) + "LEAGUE!");
             league.setCountry((String) getRandomValueFromList(repository.getCountries()));
@@ -33,29 +34,28 @@ public class Generator {
         });
         return leagues;
     }
+
     List<FootballTeam> generateTeams(int numberOfTeams) {
         List<FootballTeam> teams = new ArrayList<>();
 
-        while (numberOfTeams > teams.size()) {
-            teams.add(new FootballTeam());
-        }
+        IntStream.range(0,numberOfTeams)
+                .forEach(integer->teams.add(new FootballTeam()));
+
         teams.stream().forEach(team -> {
-            try {
-                team.setAge(new Random().nextInt(100) + 1);
-                team.setName((String) getRandomValueFromList(repository.getClubNames()));
-                team.setManager(generateMenager());
-                team.setPlayers(getTeamTogether());
-            } catch (IOException e) {
-                System.out.println("error while creating team " + team.getName());
-            }
+            team.setAge(new Random().nextInt(100) + 1);
+            team.setName((String) getRandomValueFromList(repository.getClubNames()));
+            team.setManager(generateMenager());
+            team.setPlayers(getTeamTogether());
         });
         return teams;
     }
-    List<FootballPlayer> getTeamTogether() throws IOException {
+
+    List<FootballPlayer> getTeamTogether() {
         List<FootballPlayer> list = new ArrayList<>();
 
         int teamSize = 11;
-        while (list.size() < teamSize) {
+        while (list.size() < teamSize)
+        {
             FootballPlayer player = generatePlayer();
             Position position = choosePosition(list);
             player.setPosition(position);
@@ -86,14 +86,15 @@ public class Generator {
         else return Position.DEFENCE;
     }
 
-    FootballPlayer generatePlayer() throws IOException {
+    FootballPlayer generatePlayer(){
         String name = (String) getRandomValueFromList(repository.getNames());
         String lastName = (String) getRandomValueFromList(repository.getLastNames());
         LocalDate dateOfBirth = getRandomBirthDay();
 
         return new FootballPlayer(name, lastName, Position.NULLPOSITION, dateOfBirth);
     }
-    FootballMenager generateMenager() throws IOException {
+
+    FootballMenager generateMenager(){
         String name = (String) getRandomValueFromList(repository.getNames());
         String lastName = (String) getRandomValueFromList(repository.getLastNames());
         String nationality = (String) getRandomValueFromList(repository.getNationalities());
