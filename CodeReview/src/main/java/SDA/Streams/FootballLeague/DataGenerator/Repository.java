@@ -16,7 +16,7 @@ public class Repository {
     private List<String> nationalities;
     private List<String> clubNames;
     private List<String> countries;
-    private FileToListConverter adapter;
+    private FileToListConverter converter;
 
     public Repository() throws IOException {
         this.names = new ArrayList<>();
@@ -24,16 +24,16 @@ public class Repository {
         this.nationalities = new ArrayList<>();
         this.clubNames = new ArrayList<>();
         this.countries = new ArrayList<>();
-        this.adapter = new FileToListConverter();
+        this.converter = new FileToListConverter();
         setUP();
     }
 
     void setUP() throws IOException {
-        names = adapter.getListFromFile("names.txt", new SearchForNames());
-        lastNames = adapter.getListFromFile("lastNames.txt", new SearchForLastNames());
-        nationalities = adapter.getListFromFile("nationalities.txt", new SearchForNationalities());
-        clubNames = adapter.getListFromFile("clubNames.txt", new SearchForClubNames());
-        countries = adapter.getListFromFile("nationalities.txt", new SearchForCountry());
+        names = converter.getListFromFile("names.txt", new SearchForNames());
+        lastNames = converter.getListFromFile("lastNames.txt", new SearchForLastNames());
+        nationalities = converter.getListFromFile("nationalities.txt", new SearchForNationalities());
+        clubNames = converter.getListFromFile("clubNames.txt", new SearchForClubNames());
+        countries = converter.getListFromFile("nationalities.txt", new SearchForCountry());
     }
 
     public static Object getRandomValueFromList(List list) {

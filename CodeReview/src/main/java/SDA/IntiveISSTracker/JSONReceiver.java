@@ -42,7 +42,7 @@ public class JSONReceiver {
             String JSON = getJSON();
             return JSON;
         }catch (IOException e){
-            System.out.println("faild to receive data");
+            System.out.println("fail to receive data");
         }
         return null;
     }

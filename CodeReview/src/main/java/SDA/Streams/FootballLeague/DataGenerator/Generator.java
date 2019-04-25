@@ -20,7 +20,7 @@ public class Generator {
         repository.setUP();
     }
 
-    public List<FootballLeague> generateLeagues(int numberOfLeagues) {
+    public List<FootballLeague> generateMultipleLeagues(int numberOfLeagues) {
         List<FootballLeague> leagues = new ArrayList<>();
 
         IntStream.range(0,numberOfLeagues)
@@ -30,12 +30,12 @@ public class Generator {
             league.setName(getRandomValueFromList(repository.getCountries()) + "LEAGUE!");
             league.setCountry((String) getRandomValueFromList(repository.getCountries()));
             league.setLevel(new Random().nextInt(3) + 1);
-            league.setTeams(generateTeams(new Random().nextInt(10) + 10));
+            league.setTeams(generateMultipleTeams(new Random().nextInt(10) + 10));
         });
         return leagues;
     }
 
-    List<FootballTeam> generateTeams(int numberOfTeams) {
+    List<FootballTeam> generateMultipleTeams(int numberOfTeams) {
         List<FootballTeam> teams = new ArrayList<>();
 
         IntStream.range(0,numberOfTeams)
@@ -44,28 +44,29 @@ public class Generator {
         teams.stream().forEach(team -> {
             team.setAge(new Random().nextInt(100) + 1);
             team.setName((String) getRandomValueFromList(repository.getClubNames()));
-            team.setManager(generateMenager());
-            team.setPlayers(getTeamTogether());
+            team.setManager(generateManager());
+            team.setPlayers(generateTeam());
         });
         return teams;
     }
 
-    List<FootballPlayer> getTeamTogether() {
+    List<FootballPlayer> generateTeam() {
         List<FootballPlayer> list = new ArrayList<>();
 
         int teamSize = 11;
         while (list.size() < teamSize)
         {
             FootballPlayer player = generatePlayer();
-            Position position = choosePosition(list);
+            Position position = assignPlayerPosition(list);
             player.setPosition(position);
             list.add(player);
         }
         return list;
     }
-    Position choosePosition(List<FootballPlayer> list) {
-        int maxGoalKeepers = 1;
-        int maxAttackers = 3;
+    
+    Position assignPlayerPosition(List<FootballPlayer> list) {
+        int numberOfGoalKeepers = 1;
+        int numberOfAttackers = 3;
 
         long goalKeepers = list.stream()
                 .map(footballPlayer -> footballPlayer.getPosition())
@@ -77,8 +78,8 @@ public class Generator {
                 .filter(position -> position.equals(Position.ATTACK))
                 .count();
 
-        if (goalKeepers < maxGoalKeepers) return Position.GOALKEEPER;
-        if (attackers < maxAttackers) return Position.ATTACK;
+        if (goalKeepers < numberOfGoalKeepers) return Position.GOALKEEPER;
+        if (attackers < numberOfAttackers) return Position.ATTACK;
 
         Random random = new Random();
         int value = random.nextInt(10);
@@ -94,7 +95,7 @@ public class Generator {
         return new FootballPlayer(name, lastName, Position.NULLPOSITION, dateOfBirth);
     }
 
-    FootballMenager generateMenager(){
+    FootballMenager generateManager(){
         String name = (String) getRandomValueFromList(repository.getNames());
         String lastName = (String) getRandomValueFromList(repository.getLastNames());
         String nationality = (String) getRandomValueFromList(repository.getNationalities());

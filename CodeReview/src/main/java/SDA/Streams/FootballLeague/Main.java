@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Generator g = new Generator();
-        List<FootballLeague> leagues = g.generateLeagues(100);
+        List<FootballLeague> leagues = g.generateMultipleLeagues(100);
 
 //        3.1. Na podstawie wszystkich dostępnych lig zwróć wszystkich treneerów
         List<FootballMenager> menagers = leagues.stream()
@@ -131,5 +131,8 @@ public class Main {
                .flatMap(league -> league.getTeams().stream())
                .count();
         System.out.println(firstLeague);
+
+        leagues.stream().map(league -> league.getCountry()).forEach(System.out::println);
+
     }
 }

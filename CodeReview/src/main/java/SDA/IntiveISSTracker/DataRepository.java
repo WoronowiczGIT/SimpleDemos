@@ -29,10 +29,10 @@ public class DataRepository extends Logic{
         totalTime += time;
 
         speed = getSpeedInKmH(oldPosition, newPosition);
-        double avarageSpeed = (totalDistance / totalTime) * secondsInHour;
+        double averageSpeed = (totalDistance / totalTime) * secondsInHour;
 
         DataPackage data = new DataPackage();
-        data.setAvarageSpeed(avarageSpeed);
+        data.setAvarageSpeed(averageSpeed);
         data.setSpeed(speed);
         data.setDistance(distance);
         data.setTotalDistance(totalDistance);

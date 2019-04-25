@@ -1,8 +1,10 @@
 package SDA.Streams.FootballLeague.DataGenerator.SearchStrategy;
 
-public class SearchForLastNames implements SearchingContext {
+import java.util.function.UnaryOperator;
+
+public class SearchForLastNames implements UnaryOperator<String> {
     @Override
-    public String getValue(String input) {
+    public String apply(String input) {
         return input.trim();
     }
 }

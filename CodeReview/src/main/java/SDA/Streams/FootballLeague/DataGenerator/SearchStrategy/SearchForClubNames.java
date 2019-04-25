@@ -1,11 +1,11 @@
 package SDA.Streams.FootballLeague.DataGenerator.SearchStrategy;
 
-public class SearchForClubNames implements SearchingContext {
+import java.util.function.UnaryOperator;
+
+public class SearchForClubNames implements UnaryOperator<String> {
     @Override
-    public String getValue(String input) {
+    public String apply(String input) {
         String[] clubName = input.split("-");
         return clubName[0];
     }
-
-
 }

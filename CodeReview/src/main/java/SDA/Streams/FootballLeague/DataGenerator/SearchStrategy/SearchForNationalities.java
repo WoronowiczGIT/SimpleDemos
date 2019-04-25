@@ -1,5 +1,7 @@
 package SDA.Streams.FootballLeague.DataGenerator.SearchStrategy;
 
+import java.util.function.UnaryOperator;
+
 import static java.lang.Character.isLetter;
 
 /**Explanation: we cant use simple .split() method because of inconsistencies of received data
@@ -7,9 +9,9 @@ import static java.lang.Character.isLetter;
  * The easiest approach would be to fetch the last sequence of letters in each line, and then reverse it.
  */
 
-public class SearchForNationalities implements SearchingContext {
+public class SearchForNationalities implements UnaryOperator<String> {
     @Override
-    public String getValue(String input) {
+    public String apply(String input) {
         int limit = input.length()-1;
         String nationalityReversed = "";
 

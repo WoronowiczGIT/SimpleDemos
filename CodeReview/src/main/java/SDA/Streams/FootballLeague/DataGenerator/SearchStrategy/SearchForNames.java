@@ -1,17 +1,18 @@
 package SDA.Streams.FootballLeague.DataGenerator.SearchStrategy;
 
 import java.util.Locale;
+import java.util.function.UnaryOperator;
 
 import static java.lang.Character.isLetter;
 
-public class SearchForNames implements SearchingContext {
+public class SearchForNames implements UnaryOperator<String> {
     /** Explanation: the names.txt contains a lot of unnecessary meta data,
      *  so we just fetch the first available sequence of letters in each line.
      ** @param input
      * @return
      */
     @Override
-    public String getValue(String input) {
+    public String apply(String input) {
         String name = "";
         for (int i = 0; i < input.length(); i++) {
             if (isLetter(input.charAt(i))) {
