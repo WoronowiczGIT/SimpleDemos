@@ -1,9 +1,7 @@
 package SDA.Streams.FootballLeague.DataGenerator.SearchStrategy;
 
-import java.util.Locale;
+import java.io.StringWriter;
 import java.util.function.UnaryOperator;
-
-import static java.lang.Character.isLetter;
 
 public class SearchForNames implements UnaryOperator<String> {
     /** Explanation: the names.txt contains a lot of unnecessary meta data,
@@ -13,14 +11,13 @@ public class SearchForNames implements UnaryOperator<String> {
      */
     @Override
     public String apply(String input) {
-        String name = "";
-        for (int i = 0; i < input.length(); i++) {
-            if (isLetter(input.charAt(i))) {
-                name += input.charAt(i);
-            }else break;
-        }
-        name = formatName(name);
-        return name;
+        StringWriter writer = new StringWriter();
+
+        input.chars()
+                .filter(Character::isAlphabetic)
+                .forEach(writer::write);
+
+        return formatName(writer.toString());
     }
 
     String formatName (String name){
@@ -30,4 +27,5 @@ public class SearchForNames implements UnaryOperator<String> {
         }
         return out;
     }
+
 }
