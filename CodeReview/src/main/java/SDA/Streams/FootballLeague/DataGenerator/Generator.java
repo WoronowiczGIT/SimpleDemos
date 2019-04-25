@@ -39,12 +39,12 @@ public class Generator {
         List<FootballTeam> teams = new ArrayList<>();
 
         IntStream.range(0,numberOfTeams)
-                .forEach(integer->{
+                .forEach(index->{
                     teams.add(new FootballTeam());
-                    teams.get(integer).setAge(new Random().nextInt(100) + 1);
-                    teams.get(integer).setName((String) getRandomValueFromList(repository.getClubNames()));
-                    teams.get(integer).setManager(generateManager());
-                    teams.get(integer).setPlayers(generateTeam());
+                    teams.get(index).setAge(new Random().nextInt(100) + 1);
+                    teams.get(index).setName((String) getRandomValueFromList(repository.getClubNames()));
+                    teams.get(index).setManager(generateManager());
+                    teams.get(index).setPlayers(generateTeam());
                 });
         return teams;
     }

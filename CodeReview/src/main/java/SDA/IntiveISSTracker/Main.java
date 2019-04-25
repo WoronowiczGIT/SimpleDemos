@@ -9,15 +9,15 @@ public class Main {
     public static void main(String[] args) throws IOException, ParseException, InterruptedException {
         String address = "http://api.open-notify.org/iss-now.json";
         int clientPollInterval = 5000;
-        JSONtoPOJOConverter converter = new JSONtoPOJOConverter();
-        JSONReceiver receiver = new JSONReceiver(address);
+        JSONToMapConverter parser = new JSONToMapConverter();
+        DataFetcher dataFetcher = new DataFetcher(address);
         DataRepository repository = new DataRepository();
 
-        Position oldPosition = converter.getPosition(receiver.receive());
+        Position oldPosition = parser.getPosition(dataFetcher.fetch());
         while (true) {
             Thread.sleep(clientPollInterval);
-            String JSON = receiver.receive();
-            Position newPosition = converter.getPosition(JSON);
+            String JSON = dataFetcher.fetch();
+            Position newPosition = parser.getPosition(JSON);
             DataPackage data = repository.getDisplayableData(oldPosition,newPosition);
             Presenter(data);
             oldPosition = newPosition;

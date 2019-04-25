@@ -3,7 +3,7 @@ package SDA.IntiveISSTracker;
 import SDA.IntiveISSTracker.Model.DataPackage;
 import SDA.IntiveISSTracker.Model.Position;
 
-public class DataRepository extends Logic{
+public class DataRepository extends GeographicalCalculator {
     private Double totalDistance;
     private double distance;
     private double speed;
