@@ -24,14 +24,14 @@ public class Generator {
         List<FootballLeague> leagues = new ArrayList<>();
 
         IntStream.range(0,numberOfLeagues)
-                .forEach(integer->leagues.add(new FootballLeague()));
+                .forEach(index->{
+                    leagues.add(new FootballLeague());
+                    leagues.get(index).setName(getRandomValueFromList(repository.getCountries()) + "LEAGUE!");
+                    leagues.get(index).setCountry((String) getRandomValueFromList(repository.getCountries()));
+                    leagues.get(index).setLevel(new Random().nextInt(3) + 1);
+                    leagues.get(index).setTeams(generateMultipleTeams(new Random().nextInt(10) + 10));
+                });
 
-        leagues.stream().forEach(league -> {
-            league.setName(getRandomValueFromList(repository.getCountries()) + "LEAGUE!");
-            league.setCountry((String) getRandomValueFromList(repository.getCountries()));
-            league.setLevel(new Random().nextInt(3) + 1);
-            league.setTeams(generateMultipleTeams(new Random().nextInt(10) + 10));
-        });
         return leagues;
     }
 
@@ -39,14 +39,13 @@ public class Generator {
         List<FootballTeam> teams = new ArrayList<>();
 
         IntStream.range(0,numberOfTeams)
-                .forEach(integer->teams.add(new FootballTeam()));
-
-        teams.stream().forEach(team -> {
-            team.setAge(new Random().nextInt(100) + 1);
-            team.setName((String) getRandomValueFromList(repository.getClubNames()));
-            team.setManager(generateManager());
-            team.setPlayers(generateTeam());
-        });
+                .forEach(integer->{
+                    teams.add(new FootballTeam());
+                    teams.get(integer).setAge(new Random().nextInt(100) + 1);
+                    teams.get(integer).setName((String) getRandomValueFromList(repository.getClubNames()));
+                    teams.get(integer).setManager(generateManager());
+                    teams.get(integer).setPlayers(generateTeam());
+                });
         return teams;
     }
 
@@ -63,7 +62,7 @@ public class Generator {
         }
         return list;
     }
-    
+
     Position assignPlayerPosition(List<FootballPlayer> list) {
         int numberOfGoalKeepers = 1;
         int numberOfAttackers = 3;

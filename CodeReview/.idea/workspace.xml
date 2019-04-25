@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,7 +33,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
-          <entry key="java" value="123" />
+          <entry key="java" value="126" />
           <entry key="txt" value="14" />
           <entry key="xml" value="2" />
         </counts>
@@ -40,7 +41,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="123" />
+          <entry key="JAVA" value="126" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="XML" value="2" />
         </counts>
@@ -48,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="68" />
-          <entry key="java" value="22342" />
+          <entry key="java" value="22690" />
           <entry key="txt" value="2001" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22342" />
+          <entry key="JAVA" value="22690" />
           <entry key="PLAIN_TEXT" value="2069" />
           <entry key="XML" value="5" />
         </counts>
@@ -69,8 +70,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1340">
-                  <caret line="134" column="87" selection-start-line="134" selection-start-column="87" selection-end-line="134" selection-end-column="87" />
+                <state relative-caret-position="371">
+                  <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -90,16 +91,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+                <state relative-caret-position="376">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#Generator#0;class#Generator#0" />
-                    <element signature="method#generateMultipleLeagues#0;class#Generator#0" />
-                    <element signature="method#generateMultipleTeams#0;class#Generator#0" />
+                    <element signature="e#1474#1514#0" />
                     <element signature="method#generateTeam#0;class#Generator#0" />
                     <element signature="method#assignPlayerPosition#0;class#Generator#0" />
                     <element signature="method#generatePlayer#0;class#Generator#0" />
@@ -118,11 +118,38 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+                <state relative-caret-position="136">
+                  <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="docComment;method#apply#0;class#SearchForNames#0" />
+                    <element signature="method#apply#0;class#SearchForNames#0" />
+                    <element signature="method#formatName#0;class#SearchForNames#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -208,18 +235,18 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/README.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchingContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" />
       </list>
     </option>
   </component>
@@ -319,18 +346,6 @@
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
               <item name="Streams" type="462c0819:PsiDirectoryNode" />
               <item name="FootballLeague" type="462c0819:PsiDirectoryNode" />
-              <item name="DataGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchStrategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeReview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="Streams" type="462c0819:PsiDirectoryNode" />
-              <item name="FootballLeague" type="462c0819:PsiDirectoryNode" />
               <item name="TextFiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -340,7 +355,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556191326296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556193685851" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA8Features" />
   </component>
   <component name="RecentsManager">
@@ -363,26 +378,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchForNames">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SDA.Streams.FootballLeague.DataGenerator.Generator" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SDA.Streams.FootballLeague.DataGenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONtoPOJOConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.IntiveISSTracker.JSONtoPOJOConverter" />
-      <module name="CodeReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.IntiveISSTracker.Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,20 +444,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchForNationalities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.Streams.FootballLeague.DataGenerator.SearchStrategy.SearchForNationalities" />
+      <module name="CodeReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Streams.FootballLeague.DataGenerator.SearchStrategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.JSONtoPOJOConverter" />
       <item itemvalue="Application.Generator" />
       <item itemvalue="Application.SearchForCountry" />
       <item itemvalue="Application.SearchForNames" />
+      <item itemvalue="Application.SearchForNationalities" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchForNames" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SearchForNationalities" />
+        <item itemvalue="Application.SearchForNames" />
         <item itemvalue="Application.SearchForCountry" />
         <item itemvalue="Application.Generator" />
-        <item itemvalue="Application.JSONtoPOJOConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +491,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -486,13 +501,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
@@ -760,16 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONtoPOJOConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -805,27 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/nationalities.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="83" selection-start-line="83" selection-end-line="83" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
-          <caret line="134" column="87" selection-start-line="134" selection-start-column="87" selection-end-line="134" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,37 +824,6 @@
           <folding>
             <element signature="method#FootballLeague#0;class#FootballLeague#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Generator#0;class#Generator#0" />
-            <element signature="method#generateMultipleLeagues#0;class#Generator#0" />
-            <element signature="method#generateMultipleTeams#0;class#Generator#0" />
-            <element signature="method#generateTeam#0;class#Generator#0" />
-            <element signature="method#assignPlayerPosition#0;class#Generator#0" />
-            <element signature="method#generatePlayer#0;class#Generator#0" />
-            <element signature="method#generateManager#0;class#Generator#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -884,10 +841,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#apply#0;class#SearchForNames#0" />
+            <element signature="method#apply#0;class#SearchForNames#0" />
+            <element signature="method#formatName#0;class#SearchForNames#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Generator#0;class#Generator#0" />
+            <element signature="e#1474#1514#0" />
+            <element signature="method#generateTeam#0;class#Generator#0" />
+            <element signature="method#assignPlayerPosition#0;class#Generator#0" />
+            <element signature="method#generatePlayer#0;class#Generator#0" />
+            <element signature="method#generateManager#0;class#Generator#0" />
+          </folding>
         </state>
       </provider>
     </entry>
