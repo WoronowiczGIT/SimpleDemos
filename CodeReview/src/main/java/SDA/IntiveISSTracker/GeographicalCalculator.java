@@ -1,14 +1,68 @@
 package SDA.IntiveISSTracker;
 
+import SDA.IntiveISSTracker.Model.DataPackage;
 import SDA.IntiveISSTracker.Model.Position;
 
-abstract class GeographicalCalculator {
+class GeographicalCalculator {
     private static final int secondsInHour = 3600;
     private static final int earthRadius = 6371;
     private static final double radian = 180 / Math.PI;
 
+    private Boolean isTimeFixed;
+    private int fixedTime;
+    private long totalTime;
+    private Double totalDistance;
+    private double distance;
+    private double speed;
+    private long time;
+
+
+    public GeographicalCalculator() {
+        this.isTimeFixed = false;
+        this.fixedTime = 0;
+        this.totalDistance = 0D;
+        this.distance = 0;
+        this.speed = 0;
+        this.time = 0;
+        this.totalTime = 0;
+    }
+
+    public DataPackage getCalculations(Position oldPosition, Position newPosition) {
+        if (oldPosition.equals(null) || newPosition.equals(null)) return new DataPackage();
+
+        distance = getDistanceInKm(oldPosition, newPosition);
+        totalDistance += distance;
+        time = (isTimeFixed) ? this.fixedTime : getTimeInSec(oldPosition, newPosition);
+        totalTime += time;
+
+        speed = getSpeedInKmH(oldPosition, newPosition);
+        double averageSpeed = (totalDistance / totalTime) * secondsInHour;
+
+        DataPackage data = new DataPackage();
+        data.setAvarageSpeed(averageSpeed);
+        data.setSpeed(speed);
+        data.setDistance(distance);
+        data.setTotalDistance(totalDistance);
+        data.setTime(time);
+        data.setTotalTime(totalTime);
+
+        return data;
+    }
+    public void isTimeFixed(Boolean isFixed){
+        isTimeFixed = isFixed;
+    }
+
     long getTimeInSec(Position oldPosition, Position newPosition) {
-        return newPosition.getTimeStamp() - oldPosition.getTimeStamp();
+
+        return isTimeFixed ? fixedTime : newPosition.getTimeStamp() - oldPosition.getTimeStamp();
+    }
+
+    public int getFixedTime() {
+        return fixedTime;
+    }
+
+    public void setFixedTimeInSec(int time) {
+        fixedTime = time;
     }
 
     double getSpeedInKmH(Position oldPosition, Position newPosition) {
