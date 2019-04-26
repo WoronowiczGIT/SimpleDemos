@@ -11,17 +11,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-class JsonToJsPrimitiveMapConverter {
+class JsonMapper {
 
     private Map<Object, Object> map;
-
-    private void JsonObjToMap(JsonObject object) {
-        for (Object key : object.keySet()) {
-            if (object.get((String) key).isJsonPrimitive()) {
-                map.put(key, object.get((String) key));
-            } else JsonObjToMap(object.get((String) key).getAsJsonObject());
-        }
-    }
 
     public Map convert(String json) {
         this.map = new HashMap<>();
@@ -32,4 +24,14 @@ class JsonToJsPrimitiveMapConverter {
         JsonObjToMap(obj);
         return this.map;
     }
+
+    private void JsonObjToMap(JsonObject object) {
+        for (Object key : object.keySet()) {
+            if (object.get((String) key).isJsonPrimitive()) {
+                map.put(key, object.get((String) key));
+            } else JsonObjToMap(object.get((String) key).getAsJsonObject());
+        }
+    }
+
+
 }

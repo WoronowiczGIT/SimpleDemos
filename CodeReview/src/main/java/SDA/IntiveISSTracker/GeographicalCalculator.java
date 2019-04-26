@@ -5,6 +5,7 @@ import SDA.IntiveISSTracker.Model.Position;
 
 class GeographicalCalculator {
     private static final int secondsInHour = 3600;
+    private static final int millisecondsInSecond = 1000;
     private static final int earthRadius = 6371;
     private static final double radian = 180 / Math.PI;
 
@@ -39,7 +40,7 @@ class GeographicalCalculator {
         double averageSpeed = (totalDistance / totalTime) * secondsInHour;
 
         DataPackage data = new DataPackage();
-        data.setAvarageSpeed(averageSpeed);
+        data.setAverageSpeed(averageSpeed);
         data.setSpeed(speed);
         data.setDistance(distance);
         data.setTotalDistance(totalDistance);
@@ -57,12 +58,8 @@ class GeographicalCalculator {
         return isTimeFixed ? fixedTime : newPosition.getTimeStamp() - oldPosition.getTimeStamp();
     }
 
-    public int getFixedTime() {
-        return fixedTime;
-    }
-
-    public void setFixedTimeInSec(int time) {
-        fixedTime = time;
+    public void setFixedTimeInMs(int time) {
+        fixedTime = time/millisecondsInSecond;
     }
 
     double getSpeedInKmH(Position oldPosition, Position newPosition) {

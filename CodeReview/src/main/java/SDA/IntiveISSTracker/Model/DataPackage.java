@@ -2,7 +2,7 @@ package SDA.IntiveISSTracker.Model;
 
 public class DataPackage {
     private double speed;
-    private double avarageSpeed;
+    private double averageSpeed;
     private double distance;
     private double time;
     private double totalDistance;
@@ -12,8 +12,8 @@ public class DataPackage {
         this.speed = speed;
     }
 
-    public void setAvarageSpeed(double avarageSpeed) {
-        this.avarageSpeed = avarageSpeed;
+    public void setAverageSpeed(double averageSpeed) {
+        this.averageSpeed = averageSpeed;
     }
 
     public void setDistance(double distance) {
@@ -36,8 +36,8 @@ public class DataPackage {
         return speed;
     }
 
-    public double getAvarageSpeed() {
-        return avarageSpeed;
+    public double getAverageSpeed() {
+        return averageSpeed;
     }
 
     public double getDistance() {

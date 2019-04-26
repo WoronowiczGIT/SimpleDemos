@@ -1,28 +1,39 @@
 Template:
-JSONReceiver:
-- Connects to API,
-- Checks connection
-- Returns JSON as String
-- Returns null in case of connection error.
 
-JSONtoPOJO:
-- Converts JSON String into java JSONObject
-- Converts JSONObject into Position Object
-- Returns Position Object
-- Returns null in case of invalid String
+Data Fetcher:
+establish establish and validate connection
+fetch JSON string
 
-Logic:
-- Contains converting methods that use Position objects
-- Does not validate input data - therefore declared abstract
+JsonMapper:
+converts JSON String to HashMap of GSONs JsonPrimitive Objects
 
-DataRepository:
-- Uses methods of Logic Class to create DataPackage Object
+PositionParser:
+Maps Values of JsonPrimitives to Position Object
+
+GeographicalCalculator:
+uses Position instances to calculate desirable data,
+and maps it to easy to read DataPackage Objects.
 
 Main:
-
+ sets up every interchangable parameter
+ run a while loop that each interval:
+  - fetch JSON String,
+  - parses it to Position,
+  - use old and new position to calculate velocity / distance,
+  - displays data.
 
 Bugs:
-Figure out why time stamp is fucked
-(is it API fault or need to implement multithreading)
+
 ToDo:
-Implement NULLPosition
+wyciagnac manipulacje czasem do osobnej klasy
+
+Changelog:
+1.JSON parser rozbity na 2 klasy:
+  - JsonMapper mapuje String do Mapy Obiektów
+  - PositionParser parsuje mape do obiektu Position
+
+2.Logic i Repository połączone w jedną klasę Geographical clculator
+  - przechowuje informacje o całkowitym czasie i dystansie
+  - daje nam możliwość wyboru czy chcemy korzystać z timestampa podanego w JSONie
+      (dokładność do +-1 sec) albo z naszego czasu systemowego.
+  - oblicza interesujace nas informacje i zwraca w postaci DataPackage;
