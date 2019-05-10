@@ -37,3 +37,4 @@ Changelog:
   - daje nam możliwość wyboru czy chcemy korzystać z timestampa podanego w JSONie
       (dokładność do +-1 sec) albo z naszego czasu systemowego.
   - oblicza interesujace nas informacje i zwraca w postaci DataPackage;
+
