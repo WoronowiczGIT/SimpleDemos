@@ -1,18 +1,23 @@
 package SDA.IntiveISSTracker.Model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Position {
-    private long timeStamp;
+    @SerializedName("timestamp")
+    private long timestamp;
+    @SerializedName("longitude")
     private double longitude;
+    @SerializedName("latitude")
     private double latitude;
 
-    public Position(long timeStamp, double longitude, double latitude) {
-        this.timeStamp = timeStamp;
+    public Position(long timestamp, double longitude, double latitude) {
+        this.timestamp = timestamp;
         this.longitude = longitude;
         this.latitude = latitude;
     }
 
-    public long getTimeStamp() {
-        return timeStamp;
+    public long getTimestamp() {
+        return timestamp;
     }
 
     public double getLongitude() {

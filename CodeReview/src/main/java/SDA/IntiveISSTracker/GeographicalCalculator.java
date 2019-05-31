@@ -55,7 +55,7 @@ class GeographicalCalculator {
 
     long getTimeInSec(Position oldPosition, Position newPosition) {
 
-        return isTimeFixed ? fixedTime : newPosition.getTimeStamp() - oldPosition.getTimeStamp();
+        return isTimeFixed ? fixedTime : newPosition.getTimestamp() - oldPosition.getTimestamp();
     }
 
     public void setFixedTimeInMs(int time) {

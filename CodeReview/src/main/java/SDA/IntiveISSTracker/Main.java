@@ -13,7 +13,7 @@ public class Main {
         int clientPollIntervalInMs = 5000;
 
         JsonMapper toMapConverter = new JsonMapper();
-        PositionParser toPositionConverter = new PositionParser();
+        PositionParser positionParser = new PositionParser();
         DataFetcher dataFetcher = new DataFetcher(address);
 
         GeographicalCalculator calculator = new GeographicalCalculator();
@@ -21,12 +21,14 @@ public class Main {
             calculator.isTimeFixed(true);
 
         Map map = toMapConverter.convert(dataFetcher.fetch());
-        Position oldPosition = toPositionConverter.getPosition(map);
+       // Position oldPosition = positionParser.getPosition(map);
+        Position oldPosition = toMapConverter.deserializer(dataFetcher.fetch());
         while (true) {
             Thread.sleep(clientPollIntervalInMs);
 
             map = toMapConverter.convert(dataFetcher.fetch());
-            Position newPosition = toPositionConverter.getPosition(map);
+         //   Position newPosition = positionParser.getPosition(map);
+            Position newPosition = toMapConverter.deserializer(dataFetcher.fetch());
 
             DataPackage data = calculator.getCalculations(oldPosition, newPosition);
             oldPosition = newPosition;

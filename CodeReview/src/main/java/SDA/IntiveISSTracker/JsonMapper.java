@@ -1,13 +1,10 @@
 package SDA.IntiveISSTracker;
 
+
 import SDA.IntiveISSTracker.Model.Position;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,17 +18,30 @@ class JsonMapper {
                 .parse(json)
                 .getAsJsonObject();
 
-        JsonObjToMap(obj);
+        mapJsonFields(obj);
         return this.map;
     }
 
-    private void JsonObjToMap(JsonObject object) {
-        for (Object key : object.keySet()) {
-            if (object.get((String) key).isJsonPrimitive()) {
-                map.put(key, object.get((String) key));
-            } else JsonObjToMap(object.get((String) key).getAsJsonObject());
+    private void mapJsonFields(JsonObject object) {
+        for (String key : object.keySet()) {
+
+            if (object.get(key).isJsonPrimitive()) {
+                map.put(key, object.get(key));
+            } else {
+                mapJsonFields(object.get(key).getAsJsonObject());
+            }
         }
     }
 
+    public Position deserializer(String json) {
 
+        JsonObject root = (JsonObject) new JsonParser().parse(json);
+        JsonObject issPosition = root.get("iss_position").getAsJsonObject();
+
+        long ts = root.get("timestamp").getAsLong();
+        double longitude = issPosition.get("longitude").getAsDouble();
+        double latitude = issPosition.get("latitude").getAsDouble();
+
+        return new Position(ts,longitude,latitude);
+    }
 }

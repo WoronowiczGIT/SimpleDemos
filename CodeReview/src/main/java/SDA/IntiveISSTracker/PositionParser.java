@@ -19,4 +19,5 @@ import java.util.Map;
 
         return new Position(time, longitude, latitude);
     }
+
 }

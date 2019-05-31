@@ -35,7 +35,7 @@ public class DataFetcher {
         return response.toString();
     }
 
-    public String fetch() throws IOException {
+    public String fetch(){
         try {
             openConnection();
             checkResponse();
