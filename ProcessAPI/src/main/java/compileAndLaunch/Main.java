@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
@@ -28,6 +27,8 @@ public class Main {
             deleteClassFiles();
         pBuilderDirectory();
             deleteClassFiles();
+
+            deleteMain();
     }
 
     private static void runTime() throws IOException, InterruptedException {
@@ -74,12 +75,19 @@ public class Main {
 
         File dir = new File(path.substring(0,path.length()-1));
 
-        ProcessBuilder pb = new ProcessBuilder().command(Arrays.asList("javac","Main2.java")).directory(dir);
+        ProcessBuilder pb = new ProcessBuilder()
+                .command(Arrays.asList("javac","Main2.java"))
+                .directory(dir);
+
         Process proc = pb.start();
             System.out.println("compiled successful " + proc.isAlive());
         proc.waitFor();
 
-        proc = pb.command(Arrays.asList("java","Main2")).directory(dir).start();
+        proc = pb
+                .command(Arrays.asList("java","Main2"))
+                .directory(dir)
+                .start();
+
             System.out.println("read successful " + proc.isAlive());
 
         BufferedReader output = new BufferedReader(new InputStreamReader(proc.getInputStream()));
@@ -93,7 +101,8 @@ public class Main {
         while (classFile.exists()) {
             classFile.delete();
         }
-
+    }
+    private static void deleteMain(){
         File main = new File(path + "Main.class");
         while (main.exists()) {
             main.delete();
