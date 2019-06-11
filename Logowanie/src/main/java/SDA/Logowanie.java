@@ -1,10 +1,11 @@
 package SDA;
-import java.util.logging.Logger;
-import java.util.logging.Logger.*;
+
+import org.apache.log4j.Logger;
+
 public class Logowanie {
     //protected static final Logger logJU = Logger.getLogger(Logowanie.class.getName());
     // trzeba dorzucic log4j main->resources-> add log4j.properties
-    // a w properties layout
+    // w properties layout
     protected static final org.apache.log4j.Logger logger4j =
             org.apache.log4j.Logger.getLogger(Logowanie.class.getName());
 
