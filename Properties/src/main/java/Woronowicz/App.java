@@ -9,10 +9,6 @@ import java.util.Properties;
  */
 public class App 
 {
-    static class Obj{
-        int i;
-    }
-
     public static void main( String[] args ) throws IOException {
         Properties properties = new Properties();
         setProperties(properties);
