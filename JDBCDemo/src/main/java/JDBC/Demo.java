@@ -1,6 +1,7 @@
 package JDBC;
 
 import java.sql.*;
+import java.util.List;
 import java.util.Properties;
 
 public class Demo {
@@ -13,13 +14,76 @@ public class Demo {
     public static void main(String[] args) throws SQLException {
 
         connect();
-        antiSQLInjection();
+        updateUser();
+//        updateUser();
+//        insertUser();
+//        removeUser();
+//        mapUser();
+//        antiSQLInjection();
 //        SQLinjection();
-        //       update();
+//        update();
 //        insert();
-        //     select();
+//        select();
 
     }
+    public static void filterUsers() throws SQLException {
+        String columnName = "uname";
+        String columnValue = "password";
+        PreparedStatement pstmt = myConnection.prepareStatement("SELECT * FROM users WHERE ?=?");
+        pstmt.setString(1,columnName);
+        pstmt.setString(2,columnValue);
+
+        List<User>
+        ResultSet rs = pstmt.executeQuery();
+        while (rs.next()){
+
+        }
+    }
+
+    public static void updateUser() throws SQLException {
+        String from = "name4";
+        String to = "name444";
+        PreparedStatement pstmt = myConnection.prepareStatement("UPDATE users set uname=? WHERE uname=?");
+        pstmt.setString(1,to);
+        pstmt.setString(2,from);
+        pstmt.execute();
+        // zamykamy tylko to czego uzywamy
+        pstmt.close();
+        myConnection.close();
+    }
+
+    public static void insertUser() throws SQLException {
+        User user = new User("superUniqe","InsertPassword");
+        PreparedStatement pstmt = myConnection.prepareStatement("INSERT INTO users (uname,password) VALUES (?,?)");
+        pstmt.setString(1,user.getName());
+        pstmt.setString(2,user.getPassword());
+        pstmt.execute();
+        // zamykamy tylko to czego uzywamy
+        pstmt.close();
+        myConnection.close();
+    }
+
+    public static void removeUser() throws SQLException {
+        String name = "name2";
+        PreparedStatement pStatement = myConnection.prepareStatement("DELETE FROM users where uname = ?");
+        pStatement.setString(1,name);
+        pStatement.execute();
+    }
+
+    public static void mapUser() throws SQLException {
+        String name = "name2";
+        PreparedStatement pStatement = myConnection.prepareStatement("Select uname, password from users where uname = ?");
+        pStatement.setString(1,name);
+        resultSet = pStatement.executeQuery();
+        while (resultSet.next()) {
+            String uname = resultSet.getString("uname");
+            String password = resultSet.getString("password");
+            User user = new User(uname,password);
+            System.out.println(user.getName()+" "+user.getPassword());
+        }
+
+    }
+
 
     public static void antiSQLInjection() throws SQLException {
         String goodName = "name2";
@@ -78,7 +142,6 @@ public class Demo {
 
     public static void close() throws SQLException {
         resultSet.close();
-        statement.close();
         myConnection.close();
     }
 }
