@@ -17,7 +17,7 @@ public class Main {
     private static String run = "java -cp " + relativePath + " Main2";
     private static String[] runner = {"java", "-cp", relativePath, "Main2"};
 
-    private static Process process = null;
+    private static Process process;
 
     public static void main(String[] args) throws IOException, InterruptedException {
 

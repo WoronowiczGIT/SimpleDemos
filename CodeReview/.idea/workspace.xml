@@ -2,15 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../StringStoring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringStoring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringStoring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringStoring/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/Dispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/FireTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/Mediator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/CaffeTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/IGotTheBiggestHangover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/LatteButWithoutMilk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/RudesheimerCaffe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/Caffe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/CaffeBeans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/CaffeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/LiquorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/AppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Exchangeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/NULLrate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNEURrate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNUSDrate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/PatientState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/RegisteringState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/VisitingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/DesignPaterns/State/PatientsService/WaitingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/FunctionalInterface/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballMenager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/clubNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/lastNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/nationalities.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enumy dziedziczenie/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enumy dziedziczenie/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enumy dziedziczenie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enumy dziedziczenie/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logowanie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Logowanie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProcessAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProcessAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProcessAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProcessAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProcessAPI/src/main/java/compileAndLaunch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProcessAPI/src/main/java/compileAndLaunch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../switch and loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../switch and loops/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../switch and loops/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../switch and loops/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,9 +88,9 @@
     <session id="1210799743">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
@@ -37,37 +101,39 @@
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
           <entry key="gitignore" value="1" />
+          <entry key="iml" value="1" />
           <entry key="java" value="145" />
           <entry key="txt" value="14" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="145" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="185" />
-          <entry key="java" value="25036" />
+          <entry key="java" value="25039" />
           <entry key="txt" value="3606" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25036" />
+          <entry key="JAVA" value="25039" />
           <entry key="PLAIN_TEXT" value="3791" />
           <entry key="XML" value="7" />
         </counts>
@@ -75,86 +141,22 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5728835">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="969">
-                  <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1987#1988#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
-                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="31" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="7" column="6" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="57" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodeReview.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -225,8 +227,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" />
       </list>
     </option>
   </component>
@@ -252,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -287,33 +288,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeReview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="IntiveISSTracker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeReview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="IntiveISSTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559287812097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560332192128" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -476,7 +459,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -492,7 +475,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" weight="0.32925472" />
@@ -540,7 +523,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/DataGenerator.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/MonthDay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-420">
@@ -555,27 +537,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/clubNames.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/clubNames.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -637,20 +601,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballMenager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballMenager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/README.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchingContext.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/IntStream.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,41 +611,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/nationalities.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="83" selection-start-line="83" selection-end-line="83" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListConverter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Repository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/nationalities.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/TextFiles/names.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -701,71 +623,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapToPositionParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataRepository.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -780,75 +647,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="374">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/CodeReview.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

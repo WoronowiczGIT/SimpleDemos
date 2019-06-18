@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0620535a-f214-4df7-95fc-4af2e6de8ead" name="Default Changelist" comment="" />
+    <list default="true" id="0620535a-f214-4df7-95fc-4af2e6de8ead" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeReview/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/ConcreteFireTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/Dispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/Mediator/FireTruckDispatcher/FireTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/Mediator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/CaffeTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/IGotTheBiggestHangover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/LatteButWithoutMilk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/CaffeTemplates/RudesheimerCaffe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/Caffe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/CaffeBeans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/CaffeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/CaffeMaker/Models/CaffeParameters/LiquorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/MetodaSzablonowa/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/AppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Exchangeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/NULLrate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNEURrate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/NullObject/CurrencyExchange/PLNUSDrate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/State/PatientsService/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/State/PatientsService/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/State/PatientsService/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/State/PatientsService/PatientState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/State/PatientsService/RegisteringState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/State/PatientsService/VisitingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/DesignPaterns/State/PatientsService/WaitingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/FunctionalInterface/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/FunctionalInterface/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/Model/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/PositionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/Project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/IntiveISSTracker/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/FileToListConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForClubNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForCountry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForLastNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/DataGenerator/SearchStrategy/SearchForNationalities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/Models/FootballLeague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/Models/FootballMenager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/Models/FootballPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/Models/FootballTeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/Models/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/TextFiles/clubNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/TextFiles/lastNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/TextFiles/names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeReview/src/main/java/SDA/Streams/FootballLeague/TextFiles/nationalities.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logowanie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Logowanie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProcessAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProcessAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProcessAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProcessAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProcessAPI/src/main/java/compileAndLaunch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProcessAPI/src/main/java/compileAndLaunch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../switch and loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../switch and loops/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../switch and loops/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../switch and loops/src/com/company/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,13 +78,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-499887199">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="323">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -23,16 +103,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/Samochod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="51">
               <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TableOfContent">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="34">
               <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
@@ -41,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/SamochodDost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -50,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/niedziela/TextUtilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="102">
               <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
                 <element signature="e#97#98#0" expanded="true" />
@@ -62,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/FabrykaAut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="136">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="13" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,11 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DzienTygodnia.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="e#943#944#0" expanded="true" />
                 <element signature="e#974#975#0" expanded="true" />
@@ -87,7 +166,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kalendarz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -96,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kolory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -106,7 +185,6 @@
         <entry file="file://$PROJECT_DIR$/src/Powtorka.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="e#112#113#0" expanded="true" />
                 <element signature="e#144#145#0" expanded="true" />
@@ -126,6 +204,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,6 +243,7 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -172,8 +254,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="Zajecia3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zajecia3" type="462c0819:PsiDirectoryNode" />
+              <item name="Enumy dziedziczenie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Enumy dziedziczenie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enumy dziedziczenie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Enumy dziedziczenie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,7 +271,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547380150273" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projekt1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -261,27 +348,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2525707" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32839838" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32839838" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -320,6 +409,9 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/elementyKonstr/elemWnetrza/Kierownica.java">
@@ -396,9 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,54 +526,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DzienTygodnia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalendarz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kolory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Powtorka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="323">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/Samochod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/SamochodDost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/niedziela/TextUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="102">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#97#98#0" expanded="true" />
@@ -494,7 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/FabrykaAut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="136">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="13" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -502,24 +567,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/SamochodDost.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalendarz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/niedziela/bmw/zakladyProd/Samochod.java">
+    <entry file="file://$PROJECT_DIR$/src/Powtorka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state>
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TableOfContent">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="34">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kolory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DzienTygodnia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
