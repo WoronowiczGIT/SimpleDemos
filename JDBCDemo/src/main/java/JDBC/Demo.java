@@ -8,12 +8,15 @@ public class Demo {
     private static Connection myConnection;
     private static Statement statement;
     private static Properties connectionProp;
-    final static String DB_URL = "jdbc:mysql://localhost:3306/users";
+    private static String DBname = "myDB";
+    final static String DB_URL = "jdbc:mysql://localhost:3306/" + DBname;
 
     public static void main(String[] args) throws SQLException {
 
         connect();
-        filterUsers();
+//        createTable();
+//        addColumn();
+//        filterUsers();
 //        updateUser();
 //        updateUser();
 //        insertUser();
@@ -27,10 +30,30 @@ public class Demo {
 
     }
 
+    //CAN WE PARAMETRIZE CREATE TABLE?
+    public static void createTable() throws SQLException {
+        PreparedStatement statement = myConnection.prepareStatement("CREATE TABLE newTable (column1 int, column2 varchar(123))");
+        statement.execute();
+        statement.close();
+        myConnection.close();
+    }
+
+    //SYNTAX ERROR,  WHY CANT USE PARAMETERS?
+    public static void addColumn() throws SQLException {
+        String tableName = "users";
+        String column = "newColumn3";
+        PreparedStatement statement = myConnection.prepareStatement("ALTER TABLE " + tableName + " ADD " + column + " VARCHAR(155)");
+
+        statement.executeUpdate();
+
+        statement.close();
+        myConnection.close();
+    }
+
     public static void filterUsers() throws SQLException {
         String columnName = "password";
         String columnValue = "pass";
-        PreparedStatement pstmt = myConnection.prepareStatement("SELECT * FROM users WHERE "+columnName+"=?");
+        PreparedStatement pstmt = myConnection.prepareStatement("SELECT * FROM users WHERE " + columnName + "=?");
 
         pstmt.setString(1, columnValue);
 
@@ -39,11 +62,11 @@ public class Demo {
         while (rs.next()) {
             String uname = rs.getString("uname");
             String pass = rs.getString("password");
-            users.add(new User(uname,pass));
+            users.add(new User(uname, pass));
         }
 
-        for (User u: users) {
-            System.out.println(u.getName()+" "+u.getPassword());
+        for (User u : users) {
+            System.out.println(u.getName() + " " + u.getPassword());
         }
     }
 
