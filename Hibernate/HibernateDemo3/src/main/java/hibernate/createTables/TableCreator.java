@@ -15,6 +15,13 @@ public class TableCreator {
 //                <property name="hibernate.hbm2ddl.auto">create</property>
 //                <mapping class = "hibernate.createTables.MenuItems"/>
 
+        // add menu item
+        MenuItems item = new MenuItems();
+        item.setHowSpicy(Spicy.VERY_SPICY);
+        item.setName("curry");
+        item.setPrice(22.80);
+        manager.persist(item);
+
         manager.getTransaction().commit();
         HibernateUtils.shutdown();
 
