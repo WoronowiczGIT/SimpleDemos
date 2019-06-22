@@ -11,8 +11,9 @@ public class TableCreator {
 
     public static void main(String[] args) {
         manager.getTransaction().begin();
-
-
+//          JUST GET THOSE 2 FUCKERS CORRECT !
+//                <property name="hibernate.hbm2ddl.auto">create</property>
+//                <mapping class = "hibernate.createTables.MenuItems"/>
 
         manager.getTransaction().commit();
         HibernateUtils.shutdown();
