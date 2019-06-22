@@ -8,12 +8,14 @@ public class Demo {
     private static Connection myConnection;
     private static Statement statement;
     private static Properties connectionProp;
-    private static String DBname = "myDB";
-    final static String DB_URL = "jdbc:mysql://localhost:3306/" + DBname;
+    private static String DBname = "users";
+    final static String DB_URL = "jdbc:mysql://localhost:3306/" + DBname ;
 
     public static void main(String[] args) throws SQLException {
 
         connect();
+//        createTableV2(); <-wont work
+//        insertHashedPassword();
 //        createTable();
 //        addColumn();
 //        filterUsers();
@@ -26,8 +28,19 @@ public class Demo {
 //        SQLinjection();
 //        update();
 //        insert();
-//        select();
+        select();
 
+    }
+    public static void insertHashedPassword() throws SQLException {
+        String user ="newUser112";
+        String pass ="HashedPassword";
+        String sql = "insert into users values (default ,?,MD5(?))";
+        PreparedStatement statement = myConnection.prepareStatement(sql);
+        statement.setString(1,user);
+        statement.setString(2,pass);
+        statement.execute();
+        statement.close();
+        myConnection.close();
     }
 
     //CAN WE PARAMETRIZE CREATE TABLE?
@@ -37,6 +50,20 @@ public class Demo {
         statement.close();
         myConnection.close();
     }
+    // WONT WORK, PREPARED STATEMENT IS ONLY COMPATIBLE WITH DML (insert, select).
+    public static void createTableV2() throws SQLException {
+        String tableName = "newTableName";
+        String columnName = "id";
+        String columnType = "int";
+        PreparedStatement statement = myConnection.prepareStatement("CREATE TABLE ? (? ?)");
+        statement.setString(1,tableName);
+        statement.setString(2,columnName);
+        statement.setString(3,columnType);
+        statement.execute();
+        statement.close();
+        myConnection.close();
+    }
+
 
     //SYNTAX ERROR,  WHY CANT USE PARAMETERS?
     public static void addColumn() throws SQLException {
@@ -166,6 +193,7 @@ public class Demo {
         connectionProp.put("user", "root");
         connectionProp.put("password", "ShutUp4ndSQL");
         connectionProp.put("serverTimezone", "CET");
+        connectionProp.put("useSSL", "false");
         myConnection = DriverManager.getConnection(DB_URL, connectionProp);
         statement = myConnection.createStatement();
     }
