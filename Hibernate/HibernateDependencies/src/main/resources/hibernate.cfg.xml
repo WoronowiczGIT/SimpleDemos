@@ -19,6 +19,13 @@
 
         <mapping class = "hibernate.mapingExisting.Restaurants"/>
         <mapping class = "hibernate.createTables.MenuItems"/>
+        <mapping class = "hibernate.hqlDemo.Cities"/>
+        <mapping class = "hibernate.hqlDemo.Countries"/>
 
+        <!--miniProject-->
+        <mapping class = "hibernate.miniProject.models.Tasks"/>
+        <mapping class = "hibernate.miniProject.models.Phones"/>
+        <mapping class = "hibernate.miniProject.models.Employees"/>
+        <mapping class = "hibernate.miniProject.models.Projects"/>
     </session-factory>
 </hibernate-configuration>
