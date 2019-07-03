@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/dataStructure/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myList/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myQueue/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/pokedex/Pokedex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/pokedex/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/pokedex/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/dataStructure/extractUnique/extractot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myBrowser/Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,7 +44,7 @@
           <entry key="class" value="7" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="154" />
+          <entry key="java" value="156" />
           <entry key="txt" value="17" />
           <entry key="xml" value="4" />
         </counts>
@@ -58,7 +53,7 @@
         <counts>
           <entry key="CLASS" value="7" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="154" />
+          <entry key="JAVA" value="156" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="4" />
         </counts>
@@ -66,14 +61,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="185" />
-          <entry key="java" value="27206" />
+          <entry key="java" value="28439" />
           <entry key="txt" value="3607" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27206" />
+          <entry key="JAVA" value="28439" />
           <entry key="PLAIN_TEXT" value="3792" />
           <entry key="XML" value="7" />
         </counts>
@@ -107,17 +102,44 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/myQueue/Shop.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="49" selection-end-column="60" />
+                <state relative-caret-position="154">
+                  <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
                   <folding>
-                    <element signature="imports" expanded="true" />
                     <element signature="e#133#134#0" expanded="true" />
                     <element signature="e#172#173#0" expanded="true" />
                     <element signature="e#210#211#0" expanded="true" />
                     <element signature="e#241#242#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/myBrowser/Browser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="37" selection-start-line="37" selection-end-line="37" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#285#286#0" expanded="true" />
+                    <element signature="e#302#303#0" expanded="true" />
+                    <element signature="e#1120#1121#0" expanded="true" />
+                    <element signature="e#1145#1146#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/extractUnique/extractot.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -130,7 +152,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/README.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="799">
+                <state relative-caret-position="476">
                   <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
                 </state>
               </provider>
@@ -160,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JSONConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Presenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataPackage.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/ProcessData.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Threads/DataProcessor.java" />
@@ -211,6 +231,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myList/MyList.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myQueue/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myQueue/Shop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myBrowser/Browser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/extractUnique/extractot.java" />
       </list>
     </option>
   </component>
@@ -279,16 +301,6 @@
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeReview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="myQueue" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -297,7 +309,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562161052805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562165004033" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -321,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Shop">
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SDA.App" />
       <module name="CodeReview" />
@@ -335,25 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.IntiveISSTracker.JsonMapper" />
+    <configuration name="Browser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.dataStructure.myBrowser.Browser" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.IntiveISSTracker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.IntiveISSTracker.Main" />
-      <module name="CodeReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.IntiveISSTracker.*" />
+          <option name="PATTERN" value="SDA.dataStructure.myBrowser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -426,20 +425,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="extractUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.dataStructure.extractUnique.extractUnique" />
+      <module name="CodeReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.dataStructure.extractUnique.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.JsonMapper" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.MyList" />
       <item itemvalue="Application.Shop" />
+      <item itemvalue="Application.Browser" />
+      <item itemvalue="Application.extractUnique" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.extractUnique" />
+        <item itemvalue="Application.Browser" />
         <item itemvalue="Application.Shop" />
         <item itemvalue="Application.MyList" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.JsonMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +472,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,7 +482,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,20 +536,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/objects/Global.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4830">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/parser/JSONParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -656,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="476">
           <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
         </state>
       </provider>
@@ -702,14 +700,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/myQueue/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="49" selection-end-column="60" />
+        <state relative-caret-position="154">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/myBrowser/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/extractUnique/extractot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
