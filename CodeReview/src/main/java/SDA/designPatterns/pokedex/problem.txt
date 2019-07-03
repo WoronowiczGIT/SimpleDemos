@@ -1,0 +1,9 @@
+1. Napisz mechanizm umożliwiający sekwencyje poruszanie  się po kolekcji Pokemonów,
+wykorzystaj w tym celu wzorzez Iterator, który będzie realizować poniższe funkcjonalności:
+a. boolean hasNext();
+b. Pokemon next();
+*c. boolean hasPrev();
+*d. Pokemon prev();
+
+Kolekcja pokemonów powinna być agregatem dla pojedynczych obiektów typu Pokemon.
+* zadania rozszerzające
