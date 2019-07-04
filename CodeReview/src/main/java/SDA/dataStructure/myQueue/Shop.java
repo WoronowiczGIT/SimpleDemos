@@ -2,36 +2,42 @@ package SDA.dataStructure.myQueue;
 
 public class Shop {
     private Client[] clients = new Client[2];
-    private int lastClientIndex = 0;
+    private int nextClientIndex = 0;
 
     public void addClient(Client client){
         enlargeQueue();
-        clients[lastClientIndex] = client;
-        lastClientIndex++;
+        clients[nextClientIndex] = client;
+        nextClientIndex++;
     }
     public Client pool(){
-        Client chosenOne = lastClientIndex != 0 ? clients[0] : null;
-        for (int i = 1; i < lastClientIndex; i++) {
+        if(isEmpty()) return null;
+        Client chosenOne = clients[0];
+
+        for (int i = 1; i < nextClientIndex; i++) {
             clients[i-1] = clients [i];
         }
-        if(lastClientIndex != 0)lastClientIndex--;
+        nextClientIndex--;
         shrinkQueue();
         return chosenOne;
     }
 
+    public boolean isEmpty(){
+        return nextClientIndex == 0;
+    }
+
     private void enlargeQueue(){
-        if(lastClientIndex == clients.length-1){
+        if(nextClientIndex == clients.length-1){
            changeSize(clients.length*2);
         }
     }
     private void shrinkQueue(){
-        if(lastClientIndex < clients.length/4){
+        if(nextClientIndex < clients.length/4){
             changeSize(clients.length/2);
         }
     }
     private void changeSize(int newSize){
         Client[] newList = new Client[newSize];
-        for (int i = 0; i < lastClientIndex; i++) {
+        for (int i = 0; i < nextClientIndex; i++) {
             newList[i] = clients[i];
         }
         clients = newList;
