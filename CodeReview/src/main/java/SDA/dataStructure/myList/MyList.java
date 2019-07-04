@@ -12,14 +12,14 @@ public class MyList<T extends Comparable<T>> {
         firstEmptyIndex++;
     }
 
-    public void enlargeArray(){
+    private void enlargeArray(){
         Element<T>[] newList = new Element[list.length*2];
         for (int i = 0; i < list.length; i++) {
             newList[i] = list[i];
         }
         list = newList;
     }
-    public void checkScope(int index){
+    private void checkScope(int index){
         if(index > firstEmptyIndex || index < 0) throw new ArrayIndexOutOfBoundsException();
     }
 
