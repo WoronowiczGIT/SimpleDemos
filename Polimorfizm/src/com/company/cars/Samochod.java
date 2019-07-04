@@ -1,4 +1,7 @@
-package com.company;
+package com.company.cars;
+
+import com.company.cars.Nadwozie;
+import com.company.cars.Podwozie;
 
 public class Samochod implements Nadwozie, Podwozie {
 private String kolor = " niebieski";

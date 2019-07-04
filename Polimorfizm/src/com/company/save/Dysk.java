@@ -1,6 +1,6 @@
-package com.company;
+package com.company.save;
 
-public class Dysk implements  Repository {
+public class Dysk implements Repository {
 
     @Override
     public void save() {

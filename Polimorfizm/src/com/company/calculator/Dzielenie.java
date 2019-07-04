@@ -1,6 +1,6 @@
-package com.company;
+package com.company.calculator;
 
-public class Dzielenie implements  Operacja {
+public class Dzielenie implements Operacja {
     @Override
     public double oblicz(double liczba1, double liczba2) {
         return liczba1/liczba2;

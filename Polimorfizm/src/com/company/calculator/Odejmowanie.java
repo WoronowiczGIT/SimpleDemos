@@ -1,4 +1,4 @@
-package com.company;
+package com.company.calculator;
 
 public class Odejmowanie implements Operacja {
     @Override

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.save;
 
 public class Brain implements Repository {
     @Override

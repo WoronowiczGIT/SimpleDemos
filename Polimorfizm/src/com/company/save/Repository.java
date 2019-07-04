@@ -1,4 +1,4 @@
-package com.company;
+package com.company.save;
 
 public interface Repository {
     void save();

@@ -1,6 +1,6 @@
-package com.company;
+package com.company.save;
 
-public class Chmura implements  Repository {
+public class Chmura implements Repository {
     @Override
     public void save() {
         System.out.println("zapisuje do chmury");

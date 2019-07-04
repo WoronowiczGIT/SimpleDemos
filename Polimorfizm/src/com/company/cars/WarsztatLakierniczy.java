@@ -1,4 +1,6 @@
-package com.company;
+package com.company.cars;
+
+import com.company.cars.Lakiernia;
 
 public class WarsztatLakierniczy{
 
