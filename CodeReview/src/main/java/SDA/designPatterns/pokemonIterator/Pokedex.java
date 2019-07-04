@@ -1,4 +1,4 @@
-package SDA.designPatterns.pokedex;
+package SDA.designPatterns.pokemonIterator;
 
 import java.util.Iterator;
 

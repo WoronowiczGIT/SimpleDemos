@@ -1,4 +1,4 @@
-package SDA.designPatterns.pokedex;
+package SDA.designPatterns.pokemonIterator;
 
 public class Pokemon {
     private String name;
