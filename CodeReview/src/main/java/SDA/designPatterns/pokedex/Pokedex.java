@@ -1,5 +1,7 @@
 package SDA.designPatterns.pokedex;
 
+import java.util.Iterator;
+
 public class Pokedex {
     private Pokemon[] list = new Pokemon[2];
     private int lastPokemonIndex = 0;
@@ -24,7 +26,7 @@ public class Pokedex {
             list = newList;
         }
     }
-    public class Piterator{
+    private class Piterator implements Iterator<Pokemon> {
         private int index = 0;
 
         private Piterator(){}

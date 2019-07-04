@@ -1,5 +1,7 @@
 package SDA.designPatterns.pokedex;
 
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
         Pokedex dexter = new Pokedex();
@@ -7,7 +9,7 @@ public class Main {
         dexter.addPokemon(new Pokemon("Bulbasaur"));
         dexter.addPokemon(new Pokemon("Charizard"));
 
-        Pokedex.Piterator piterator = dexter.createPiterator();
+        Iterator<Pokemon> piterator = dexter.createPiterator();
 
         while (piterator.hasNext()){
             System.out.println(piterator.next().getName());
