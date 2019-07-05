@@ -4,7 +4,6 @@
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dziedziczenie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dziedziczenie/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polimorfizm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polimorfizm/.idea/workspace.xml" afterDir="false" />
@@ -66,14 +65,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="185" />
-          <entry key="java" value="33435" />
+          <entry key="java" value="33692" />
           <entry key="txt" value="3607" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33435" />
+          <entry key="JAVA" value="33692" />
           <entry key="PLAIN_TEXT" value="3792" />
           <entry key="XML" value="7" />
         </counts>
@@ -103,11 +102,17 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+                <state relative-caret-position="233">
+                  <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#618#619#0" expanded="true" />
+                    <element signature="e#660#661#0" expanded="true" />
+                    <element signature="e#906#907#0" expanded="true" />
+                    <element signature="e#940#941#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -115,17 +120,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-73">
-                  <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="27" selection-end-column="7" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
                   <folding>
                     <element signature="e#319#320#0" expanded="true" />
                     <element signature="e#336#337#0" expanded="true" />
@@ -219,9 +224,9 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN20.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN50.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN100.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" />
       </list>
     </option>
   </component>
@@ -326,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562318387582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562319379020" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DesignPatterns/DesignPatterns" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -910,25 +915,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>

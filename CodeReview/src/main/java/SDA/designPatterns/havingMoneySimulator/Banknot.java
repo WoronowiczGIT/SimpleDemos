@@ -5,34 +5,53 @@ public abstract class Banknot {
     protected int amount;
     protected Banknot next;
 
-    void processRequest(int request) {
-        if(caseOutOfMoney(request))return;
+    private int change;
+    private int amountRequested;
 
-        int amountRequested = request / value;
-        int rest = request % value;
-        if (amountRequested > amount) {
-            System.out.println("sending: " + amount + " x " + value+" PLN");
-            rest += (amountRequested - amount) * value;
-            amount = 0;
-        } else {
-            if(amountRequested != 0){
-                System.out.println("sending: " + amountRequested + " x " + value+" PLN");
-                amount -= amountRequested;
-            }else {
-                next.processRequest(rest);
-                return;
-            }
-        }
-        forward(rest);
+    void processRequest(int request) {
+        if (validateRequest(request)) return;
+        if (caseOutOfMoney(request)) return;
+
+        amountRequested = request / value;
+        change = request % value;
+
+        if (checkAmount()) {
+            caseEnoughResources();
+        } else
+            caseNotEnoughResources();
+
+        forward(change);
     }
+
+    boolean checkAmount() {
+        return amountRequested <= 0;
+    }
+
+    void caseNotEnoughResources() {
+        System.out.println("sending: " + amount + " x " + value + " PLN");
+        change += (amountRequested - amount) * value;
+        amount = 0;
+    }
+
+    void caseEnoughResources() {
+        if (amountRequested != 0) {
+            System.out.println("sending: " + amountRequested + " x " + value + " PLN");
+            amount -= amountRequested;
+        }
+    }
+
+    boolean validateRequest(int request) {
+        return request < 0;
+    }
+
     boolean caseOutOfMoney(int request) {
-        if(amount == 0){
+        if (amount == 0) {
             next.processRequest(request);
         }
         return amount == 0;
     }
 
-    void forward(int rest){
+    void forward(int rest) {
         if (rest > 0) {
             next.processRequest(rest);
         } else System.out.println("thank you!");

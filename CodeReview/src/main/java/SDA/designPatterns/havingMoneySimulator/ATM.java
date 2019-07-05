@@ -14,6 +14,8 @@ public class ATM {
     public static void main(String[] args) {
         ATM.request(500);
         ATM.request(120);
+        ATM.request(130);
+        ATM.request(2130);
         ATM.request(111);
         ATM.request(100000);
 
