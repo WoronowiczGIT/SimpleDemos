@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dziedziczenie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dziedziczenie/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polimorfizm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polimorfizm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticMethods.java" afterDir="false" />
@@ -48,7 +49,7 @@
           <entry key="class" value="7" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="186" />
+          <entry key="java" value="187" />
           <entry key="txt" value="24" />
           <entry key="xml" value="4" />
         </counts>
@@ -57,7 +58,7 @@
         <counts>
           <entry key="CLASS" value="7" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="186" />
+          <entry key="JAVA" value="187" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="XML" value="4" />
         </counts>
@@ -65,14 +66,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="185" />
-          <entry key="java" value="33692" />
+          <entry key="java" value="33928" />
           <entry key="txt" value="3607" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33692" />
+          <entry key="JAVA" value="33928" />
           <entry key="PLAIN_TEXT" value="3792" />
           <entry key="XML" value="7" />
         </counts>
@@ -102,16 +103,16 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="233">
-                  <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+                <state relative-caret-position="901">
+                  <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
                   <folding>
-                    <element signature="e#618#619#0" expanded="true" />
-                    <element signature="e#660#661#0" expanded="true" />
-                    <element signature="e#906#907#0" expanded="true" />
-                    <element signature="e#940#941#0" expanded="true" />
+                    <element signature="e#620#621#0" expanded="true" />
+                    <element signature="e#654#655#0" expanded="true" />
+                    <element signature="e#605#606#0" expanded="true" />
+                    <element signature="e#648#649#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -122,6 +123,25 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
                   <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#163#164#0" expanded="true" />
+                    <element signature="e#199#200#0" expanded="true" />
+                    <element signature="e#266#267#0" expanded="true" />
+                    <element signature="e#312#313#0" expanded="true" />
+                    <element signature="e#381#382#0" expanded="true" />
+                    <element signature="e#414#415#0" expanded="true" />
+                    <element signature="e#439#440#0" expanded="true" />
+                    <element signature="e#462#463#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -146,7 +166,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2363">
+                <state relative-caret-position="477">
                   <caret line="122" column="121" selection-start-line="122" selection-start-column="121" selection-end-line="122" selection-end-column="121" />
                 </state>
               </provider>
@@ -176,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PrimitiveMapToPositionConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" />
@@ -227,6 +246,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java" />
       </list>
     </option>
   </component>
@@ -238,9 +258,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1132" />
-    <option name="height" value="920" />
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -313,16 +334,6 @@
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeReview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="havingMoneySimulator" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -331,9 +342,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562319379020" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DesignPatterns/DesignPatterns" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562331788002" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -355,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ATM">
+  <component name="RunManager" selected="Application.Performance">
     <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.havingMoneySimulator.ATM" />
       <module name="CodeReview" />
@@ -409,19 +421,6 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.dataStructure.myQueue.Main" />
-      <module name="CodeReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.dataStructure.myQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.pokemonIterator.Main" />
       <module name="CodeReview" />
       <extension name="coverage">
@@ -460,25 +459,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.stageState.Performance" />
+      <module name="CodeReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.designPatterns.stageState.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.ATM" />
+      <item itemvalue="Application.Performance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Performance" />
         <item itemvalue="Application.ATM" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\m1rage\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -492,9 +504,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -504,7 +515,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32814237" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32814237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,7 +569,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" />
@@ -863,7 +873,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
+        <state relative-caret-position="477">
           <caret line="122" column="121" selection-start-line="122" selection-start-column="121" selection-end-line="122" selection-end-column="121" />
         </state>
       </provider>
@@ -913,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -933,13 +936,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="901">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
           </folding>
         </state>
       </provider>
