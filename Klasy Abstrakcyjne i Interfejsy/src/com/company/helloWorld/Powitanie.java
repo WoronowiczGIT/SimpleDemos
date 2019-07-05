@@ -1,4 +1,4 @@
-package com.company;
+package com.company.helloWorld;
 
 public class Powitanie extends  Siema {
 

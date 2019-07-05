@@ -1,4 +1,6 @@
-package com.company;
+package com.company.calculator;
+
+import com.company.calculator.Operacja;
 
 public class Mnozenie extends Operacja {
 

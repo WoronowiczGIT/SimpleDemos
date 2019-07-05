@@ -1,10 +1,9 @@
-package com.company;
+package com.company.calculator;
 
-public class Odejmowanie extends Operacja{
+public class Odejmowanie extends Operacja {
 
     public Odejmowanie(double liczba1, double liczba2) {
         super(liczba1, liczba2);
-
     }
 
     @Override
