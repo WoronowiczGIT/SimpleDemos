@@ -11,12 +11,12 @@ public abstract class Banknot {
         int amountRequested = request / value;
         int rest = request % value;
         if (amountRequested > amount) {
-            System.out.println("sending: " + amount + " x " + value);
+            System.out.println("sending: " + amount + " x " + value+" PLN");
             rest += (amountRequested - amount) * value;
             amount = 0;
         } else {
             if(amountRequested != 0){
-                System.out.println("sending: " + amountRequested + " x " + value);
+                System.out.println("sending: " + amountRequested + " x " + value+" PLN");
                 amount -= amountRequested;
             }else {
                 next.processRequest(rest);

@@ -12,10 +12,10 @@ public class ATM {
     }
 
     public static void main(String[] args) {
-        ATM.request(712324);
-        ATM.request(124);
-        ATM.request(324);
-
+        ATM.request(500);
+        ATM.request(120);
+        ATM.request(111);
+        ATM.request(100000);
 
     }
 }
