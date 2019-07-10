@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f67b71-df71-41c6-b97b-26bd240a0beb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/nameConflicts/Ambiguous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/adaptingInterface/RandomIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/adaptingInterface/RandomWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/misc.xml" beforeDir="false" />
@@ -50,6 +51,7 @@
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/JDBC/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/JDBC/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/nameConflicts/Ambiguous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="22">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
@@ -123,6 +125,34 @@
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomIntegers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +211,8 @@
         <option value="$PROJECT_DIR$/src/com/company/wielobazoweDziedziczenie/Adventure.java" />
         <option value="$PROJECT_DIR$/src/com/company/rozszerzanieInterfejsow/DarkWoods.java" />
         <option value="$PROJECT_DIR$/src/com/company/nameConflicts/Ambiguous.java" />
+        <option value="$PROJECT_DIR$/src/com/company/adaptingInterface/RandomWords.java" />
+        <option value="$PROJECT_DIR$/src/com/company/adaptingInterface/RandomIntegers.java" />
       </list>
     </option>
   </component>
@@ -221,7 +253,7 @@
               <item name="Klasy Abstrakcyjne i Interfejsy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="nameConflicts" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptingInterface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,7 +283,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ambiguous">
+  <component name="RunManager" selected="Application.AdapterRandomInt">
+    <configuration name="AdapterRandomInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.adaptingInterface.AdapterRandomInt" />
+      <module name="Zajecia3Abstrakcja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.adaptingInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.wielobazoweDziedziczenie.Adventure" />
       <module name="Zajecia3Abstrakcja" />
@@ -278,19 +323,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Concert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.instruments.Concert" />
-      <module name="Zajecia3Abstrakcja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DarkWoods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.rozszerzanieInterfejsow.DarkWoods" />
       <module name="Zajecia3Abstrakcja" />
@@ -304,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.helloWorld.Main" />
+    <configuration name="RandomWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.adaptingInterface.RandomWords" />
       <module name="Zajecia3Abstrakcja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.helloWorld.*" />
+          <option name="PATTERN" value="com.company.adaptingInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,19 +350,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Concert" />
       <item itemvalue="Application.Adventure" />
       <item itemvalue="Application.DarkWoods" />
       <item itemvalue="Application.Ambiguous" />
+      <item itemvalue="Application.RandomWords" />
+      <item itemvalue="Application.AdapterRandomInt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterRandomInt" />
+        <item itemvalue="Application.RandomWords" />
         <item itemvalue="Application.Ambiguous" />
         <item itemvalue="Application.DarkWoods" />
         <item itemvalue="Application.Adventure" />
-        <item itemvalue="Application.Concert" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -344,12 +376,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547380322914</updated>
-      <workItem from="1562759101100" duration="2070000" />
+      <workItem from="1562759101100" duration="5715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2070000" />
+    <option name="totallyTimeSpent" value="5715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -365,13 +397,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32882273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3301759" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3301759" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32882273" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
@@ -578,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/nameConflicts/Ambiguous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="22">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#341#342#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
@@ -587,6 +619,30 @@
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
           </folding>
         </state>
       </provider>
