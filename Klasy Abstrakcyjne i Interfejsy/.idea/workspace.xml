@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f67b71-df71-41c6-b97b-26bd240a0beb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/interfaceFields/TestingFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/nestedInterfaces/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/innerClass/OuterClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/misc.xml" beforeDir="false" />
@@ -78,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/wielobazoweDziedziczenie/Adventure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="462">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
@@ -87,28 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/rozszerzanieInterfejsow/DarkWoods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1254">
+              <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,16 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/nameConflicts/Ambiguous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="176">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="836">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,13 +117,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomIntegers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,24 +126,19 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/interfaceFields/TestingFields.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/nestedInterfaces/SuperClass.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/nestedInterfaces/SuperClass.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/OuterClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-              <folding>
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="436">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -239,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/com/company/adaptingInterface/RandomIntegers.java" />
         <option value="$PROJECT_DIR$/src/com/company/interfaceFields/TestingFields.java" />
         <option value="$PROJECT_DIR$/src/com/company/nestedInterfaces/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/innerClass/OuterClass.java" />
       </list>
     </option>
   </component>
@@ -279,18 +241,20 @@
               <item name="Klasy Abstrakcyjne i Interfejsy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="nestedInterfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="innerClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562331318202" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -309,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OutsideClass">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="AdapterRandomInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.adaptingInterface.AdapterRandomInt" />
       <module name="Zajecia3Abstrakcja" />
@@ -336,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.adaptingInterface.RandomWords" />
+    <configuration name="SuperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.nestedInterfaces.SuperClass" />
       <module name="Zajecia3Abstrakcja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.adaptingInterface.*" />
+          <option name="PATTERN" value="com.company.nestedInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.nestedInterfaces.SuperClass" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.innerClass.Test" />
       <module name="Zajecia3Abstrakcja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.nestedInterfaces.*" />
+          <option name="PATTERN" value="com.company.innerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,19 +340,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RandomWords" />
       <item itemvalue="Application.AdapterRandomInt" />
       <item itemvalue="Application.TestingFields" />
       <item itemvalue="Application.SuperClass" />
       <item itemvalue="Application.OutsideClass" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.OutsideClass" />
         <item itemvalue="Application.SuperClass" />
         <item itemvalue="Application.TestingFields" />
         <item itemvalue="Application.AdapterRandomInt" />
-        <item itemvalue="Application.RandomWords" />
       </list>
     </recent_temporary>
   </component>
@@ -402,18 +366,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547380322914</updated>
-      <workItem from="1562759101100" duration="7993000" />
+      <workItem from="1562759101100" duration="8715000" />
+      <workItem from="1562781007578" duration="386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7993000" />
+    <option name="totallyTimeSpent" value="9101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,6 +386,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
@@ -429,11 +396,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3301759" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22056833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32882273" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -450,13 +418,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MojaKlasaAbstrakcyjna.java" />
-    <entry file="file://$PROJECT_DIR$/TableOfContent">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/introduction/MojInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -600,59 +561,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TableOfContent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/wielobazoweDziedziczenie/Adventure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="462">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/rozszerzanieInterfejsow/DarkWoods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1254">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/nameConflicts/Ambiguous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="836">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -662,34 +602,22 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/adaptingInterface/RandomIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/interfaceFields/TestingFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/nestedInterfaces/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/OuterClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="436">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
