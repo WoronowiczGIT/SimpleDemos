@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f67b71-df71-41c6-b97b-26bd240a0beb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/innerClass/PasswordFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/innerClass/DotNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/innerClass/DotThis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/misc.xml" beforeDir="false" />
@@ -50,7 +51,7 @@
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/JDBC/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/JDBC/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/innerClass/PasswordFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/innerClass/PasswordFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,24 +65,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TableOfContent">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/wielobazoweDziedziczenie/Adventure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/rozszerzanieInterfejsow/DarkWoods.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,17 +125,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/PasswordFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="480">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/DotThis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <folding>
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/DotNew.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -217,10 +230,13 @@
         <option value="$PROJECT_DIR$/src/com/company/innerClass/OuterClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/innerClass/UsingInterface.java" />
         <option value="$PROJECT_DIR$/src/com/company/innerClass/PasswordFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/innerClass/dotThis.java" />
+        <option value="$PROJECT_DIR$/src/com/company/innerClass/DotThis.java" />
+        <option value="$PROJECT_DIR$/src/com/company/innerClass/DotNew.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -289,7 +305,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Tester">
+  <component name="RunManager" selected="Application.DotNew">
+    <configuration name="DotNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.innerClass.DotNew" />
+      <module name="Zajecia3Abstrakcja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.innerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OutsideClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.nestedInterfaces.OutsideClass" />
       <module name="Zajecia3Abstrakcja" />
@@ -342,33 +371,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.interfaceFields.TestingFields" />
-      <module name="Zajecia3Abstrakcja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.interfaceFields.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TestingFields" />
       <item itemvalue="Application.SuperClass" />
       <item itemvalue="Application.OutsideClass" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Tester" />
+      <item itemvalue="Application.DotNew" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DotNew" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.OutsideClass" />
         <item itemvalue="Application.SuperClass" />
-        <item itemvalue="Application.TestingFields" />
       </list>
     </recent_temporary>
   </component>
@@ -383,15 +399,15 @@
       <option name="presentableId" value="Default" />
       <updated>1547380322914</updated>
       <workItem from="1562759101100" duration="8715000" />
-      <workItem from="1562781007578" duration="2250000" />
+      <workItem from="1562781007578" duration="3902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10965000" />
+    <option name="totallyTimeSpent" value="12617000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
@@ -406,13 +422,13 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32882273" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22056833" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22056833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32882273" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
@@ -639,14 +655,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/PasswordFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="480">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/DotThis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/innerClass/DotNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>

@@ -2,10 +2,16 @@ package com.company.innerClass;
 
 public class PasswordFactory {
     private String password = "very hard password";
+    public void presentOuter(){
+        System.out.println(password);
+    }
 
     class PrivatePresenter implements Presenter{
         @Override
         public void present() {
+            System.out.println(password);
+        }
+        public void presentFromPrivate(){
             System.out.println(password);
         }
     }
@@ -21,6 +27,8 @@ class Tester{
         // You can get an instance of inner private class by using interface
         Presenter p = new PasswordFactory().createPresenter();
         p.present();
+        // aftrer upcasting we cannot access neither PrivatePresenter
+        // nor OuterClass methods and fields
     }
 }
 
