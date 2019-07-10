@@ -8,22 +8,14 @@ public class Adventure {
     }
 }
 
-interface CanFly{
-    void fly();
-}
-interface CanFight{
-    void fight();
-}
+interface CanFly{ void fly();}
+
+interface CanFight{ void fight();}
 
 class Character{
-    public void fight(){
-        System.out.println("karate Chop");
-    }
+    public void fight(){ System.out.println("karate Chop"); }
 }
-
 class Hero extends Character implements CanFight, CanFly{
     @Override
-    public void fly() {
-        System.out.println("fly high");
-    }
+    public void fly() { System.out.println("fly high"); }
 }
