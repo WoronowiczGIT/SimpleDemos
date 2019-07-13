@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b18be0b-b6b9-4644-9893-aff96195ee27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/ServletArchetype.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletArchetype/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/Servlety.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlety/src/main/java/helloWorld/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/HibernateDependencies/HibernateDemo3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hibernate/.idea/misc.xml" beforeDir="false" />
@@ -70,6 +57,19 @@
       <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/JDBC/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/JDBC/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/src/com/company/innerClass/DotNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/src/com/company/innerClass/DotNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletArchetype/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletArchetype/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletArchetype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletArchetype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletArchetype/ServletArchetype.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletArchetype/ServletArchetype.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletArchetype/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletArchetype/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletArchetype/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletArchetype/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletArchetype/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletArchetype/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlety/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlety/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety/src/main/java/helloWorld/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlety/src/main/java/helloWorld/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+            <state relative-caret-position="264">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,15 +107,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="264">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,9 +181,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MyDate.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index2.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index3.html" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyFilter.java" />
       </list>
     </option>
   </component>
@@ -163,15 +215,6 @@
       </expand>
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -215,21 +258,6 @@
             <path>
               <item name="Servlety2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlety2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlety2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlety2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlety2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlety2" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -239,9 +267,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ServicesAndApps/TimeMenager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hibernate/HibernateDependencies" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -250,6 +279,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m1rage\IdeaProjects\Simple Demos\Servlety2\src\main\webapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,7 +297,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyDate">
+    <configuration name="MyDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyDate" />
+      <module name="Servlety2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Servlety2 [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -291,6 +332,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyDate" />
         <item itemvalue="Maven.Servlety2 [install]" />
       </list>
     </recent_temporary>
@@ -305,12 +347,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563006157576</updated>
-      <workItem from="1563006160753" duration="9000000" />
+      <workItem from="1563006160753" duration="18117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9000000" />
+    <option name="totallyTimeSpent" value="18117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -322,7 +364,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15745501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15745501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32882273" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -338,7 +380,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="right" id="Maven" visible="true" weight="0.2377892" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.2377892" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
@@ -353,13 +395,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -367,13 +402,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+        <state relative-caret-position="264">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
