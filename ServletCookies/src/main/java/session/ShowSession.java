@@ -1,3 +1,5 @@
+package session;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -6,23 +8,26 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "starter",value = "/session")
-public class StartSession extends HttpServlet {
+@WebServlet(name = "shower",value = "/showS")
+public class ShowSession extends HttpServlet {
     HttpServletRequest request;
     HttpServletResponse response;
-    PrintWriter writer;
-    @Override
+    PrintWriter w;
+
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        writer = response.getWriter();
         this.request = request;
         this.response = response;
+        w = response.getWriter();
 
-        startSession();
+        showSession();
     }
-    public void startSession(){
-        HttpSession session = request.getSession();
-        request.getSession(true);
-        session.setAttribute("name","session attribute");
-        writer.println("session is on");
+
+    public void showSession(){
+        HttpSession session = request.getSession(false);
+        if(session != null){
+            String attribute = (String)session.getAttribute("name");
+            w.println(attribute);
+        }
+
     }
 }
