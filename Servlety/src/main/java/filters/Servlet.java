@@ -1,5 +1,7 @@
 package filters;
 
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,13 +26,14 @@ public class Servlet extends HttpServlet {
         writer.println(fetchedValues[0]);
     }
     @Override
-    public void doGet(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws IOException {
+    public void doGet(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws IOException, ServletException {
         this.request = servletRequest;
         this.response = servletResponse;
         response.setContentType("text/html");
 
         PrintWriter writer = response.getWriter();
-
+        RequestDispatcher dispatcher = request.getRequestDispatcher("formMain.html");
+        dispatcher.forward(request, response);
         writer.println("it works!");
     }
 
