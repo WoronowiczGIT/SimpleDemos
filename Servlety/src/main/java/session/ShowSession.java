@@ -27,7 +27,13 @@ public class ShowSession extends HttpServlet {
         if(session != null){
             String attribute = (String)session.getAttribute("name");
             w.println(attribute);
+            w.println("<br/>");
+            w.println(session.getId());
+        }else {
+            w.println("no session");
         }
+
+
 
     }
 }
