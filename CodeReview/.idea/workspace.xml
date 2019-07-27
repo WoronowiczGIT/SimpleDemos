@@ -2,14 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Dyspozytor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dziedziczenie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dziedziczenie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Generyki TryCatch Threads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Generyki TryCatch Threads/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polimorfizm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polimorfizm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Polimorfizm/src/com/company/traps/staticTraps/staticMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeReview.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletCookies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/java/AddCookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/java/DeleteCookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/java/ShowCookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/java/session/KillSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/java/session/ShowSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/java/session/StartSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletCookies/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlety/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety/src/main/webapp/formMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlety/src/main/webapp/formMain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety/src/main/webapp/guide.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlety/src/main/webapp/guide.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety/src/main/webapp/lotto/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlety/src/main/webapp/lotto/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/src/main/webapp/index2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/src/main/webapp/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety2/src/main/webapp/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/java/ResponseFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/java/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/java/SuperFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestServlet/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,120 +60,47 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1210799743">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="7" />
-          <entry key="gitignore" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="187" />
-          <entry key="txt" value="24" />
-          <entry key="xml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="7" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="187" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="185" />
-          <entry key="java" value="33928" />
-          <entry key="txt" value="3607" />
-          <entry key="xml" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="33928" />
-          <entry key="PLAIN_TEXT" value="3792" />
-          <entry key="XML" value="7" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/ChangeColor.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="833">
-                  <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#620#621#0" expanded="true" />
-                    <element signature="e#654#655#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN10.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Dyspozytor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="24" />
                   <folding>
-                    <element signature="e#418#419#0" expanded="true" />
-                    <element signature="e#462#463#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#257#258#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Runner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#460#461#0" expanded="true" />
+                    <element signature="e#485#486#0" expanded="true" />
+                    <element signature="e#704#705#0" expanded="true" />
+                    <element signature="e#731#732#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -144,8 +112,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="122" column="121" selection-start-line="122" selection-start-column="121" selection-end-line="122" selection-end-column="121" />
+                <state relative-caret-position="425">
+                  <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -174,10 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/README.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/DataFetcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/pokedex/problem.txt" />
@@ -190,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/extractUnique/extractUniqe.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/extractUnique/extractUnique.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myList/MyList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/pokedex/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/pokedex/Pokedex.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/pokedex/Main.java" />
@@ -225,6 +188,11 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/ATM.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/Banknot.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/AbstractRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Dyspozytor.java" />
       </list>
     </option>
   </component>
@@ -291,17 +259,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeReview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="myQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
@@ -311,6 +269,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="curierMediator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,10 +279,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562336514290" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Klasy Abstrakcyjne i Interfejsy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DesignPatterns/DesignPatterns" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -345,26 +313,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Performance">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.havingMoneySimulator.ATM" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SDA.designPatterns.havingMoneySimulator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.coffeDecorator.Main" />
-      <module name="CodeReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.designPatterns.coffeDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,12 +353,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.pokemonIterator.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.curierMediator.Main" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.designPatterns.pokemonIterator.*" />
+          <option name="PATTERN" value="SDA.designPatterns.curierMediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,20 +406,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.ATM" />
       <item itemvalue="Application.Performance" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Performance" />
         <item itemvalue="Application.ATM" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -478,13 +432,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555071144129</updated>
+      <workItem from="1564214929628" duration="5476000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5476000" />
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15671642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -492,19 +451,23 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32814237" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -544,15 +507,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/GeographicalCalculator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/DataPackage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Project.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/JsonMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Model/Position.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/PositionParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/IntiveISSTracker/Main.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -906,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/stageState/Performance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="e#418#419#0" expanded="true" />
             <element signature="e#462#463#0" expanded="true" />
@@ -917,8 +875,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="122" column="121" selection-start-line="122" selection-start-column="121" selection-end-line="122" selection-end-column="121" />
+        <state relative-caret-position="425">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/AbstractRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Dyspozytor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

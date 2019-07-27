@@ -1,4 +1,4 @@
-1. Napisz mechanizm umożliwiający sekwencyje poruszanie  się po kolekcji Pokemonów, wykorzystaj w tym celu wzorzez Iterator, który będzie realizować poniższe funkcjonalności:
++1. Napisz mechanizm umożliwiający sekwencyje poruszanie  się po kolekcji Pokemonów, wykorzystaj w tym celu wzorzez Iterator, który będzie realizować poniższe funkcjonalności:
 a. boolean hasNext();
 b. Pokemon next();
 *c. boolean hasPrev();
@@ -7,7 +7,7 @@ b. Pokemon next();
 Kolekcja pokemonów powinna być agregatem dla pojedynczych obiektów typu Pokemon.
 * zadania rozszerzające
 
-2. Napisz mechanizm rozszerzający możliwości samochodu bazowego, wykorzystaj w tym celu wzorzec dekorator, który będzie realizować poniższe funkcjonalności:
++2. Napisz mechanizm rozszerzający możliwości samochodu bazowego, wykorzystaj w tym celu wzorzec dekorator, który będzie realizować poniższe funkcjonalności:
 Samochód bazowy będziemy mogli rozszerzyć dodatkowo o:
 - kolor karoseri
 - spojler
@@ -15,12 +15,12 @@ Samochód bazowy będziemy mogli rozszerzyć dodatkowo o:
 Ważne, by użytkownik konfigurujący auto mógł dynamicznie dobierać sobie usprawnienia dla swojego samochodu.
 
 
-3. Napisz mechanizm realizujący strukturę drzewiastą przedstawiającą sturkturę korporacji IT. Do tego celu wykorzystaj wzorzec projektowy kompozyt:
++3. Napisz mechanizm realizujący strukturę drzewiastą przedstawiającą sturkturę korporacji IT. Do tego celu wykorzystaj wzorzec projektowy kompozyt:
 Pojedynczym element (leaf) będzie w tym przypadku developer
 Kompozytem będzie natomiast manager który może koordynowac pracę wielu developerów oraz managerów. Zaimplementuj mechanizm któr pozwoli wyświetlić listę zarobków każdego pracownika w firmie.
 
 
-4. Napisz aplikację symulującą wypłatę z bankomatu. Wykorzystaj do tego łańuch zobowiązań. Pojedynczym ogniwem powinno być w tym przypadku wypłata określonego nominału, np jak poniżej:
++4. Napisz aplikację symulującą wypłatę z bankomatu. Wykorzystaj do tego łańuch zobowiązań. Pojedynczym ogniwem powinno być w tym przypadku wypłata określonego nominału, np jak poniżej:
 200
  |
 \_/
@@ -42,7 +42,7 @@ Banknoty dostępne w bankomacie
 
 750 zł rozbijamy na -> 200x2 + 100x3 + 50x1: bierzemy maksymalną dopuszczalną liczbę każdego z banknotów a to kolejnego ogniwa przekazujemy reszte kwoty którą chcemy wypłacić.
 
-5. Napisz aplikację realizującą wzorzec projektowy mediator realizującą działanie firmy kurierskiej
++5. Napisz aplikację realizującą wzorzec projektowy mediator realizującą działanie firmy kurierskiej
 - dyspozytor powinien posiadać listę kurierów dostępnych do rozwożenia przesyłek
 - dyspozytor powinien do każdej paczki wysyłać nowego kuriera
 - każdy kurier powien rozwozić paczkę w 20s.
