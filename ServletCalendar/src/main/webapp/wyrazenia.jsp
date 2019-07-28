@@ -12,6 +12,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%--ENABLES TAGLIBRARIES <- CRUCIAL!!!!--%>
+<%@ page isELIgnored="false" %>
+
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
