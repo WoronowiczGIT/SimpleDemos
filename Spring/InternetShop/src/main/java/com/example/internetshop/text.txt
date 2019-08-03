@@ -1,0 +1,3 @@
+Endpointy -> rest
+rest bezstanowy
+laczy endpointy

@@ -14,19 +14,22 @@
 <head>
     <title>lotto</title>
     <style>
-        div{
+        div {
             display: block;
             position: absolute;
-            top:0;
-            left:30%;
+            top: 0;
+            left: 30%;
         }
-        *{
+
+        * {
             font-size: 22px;
         }
-        p{
+
+        p {
             font-size: 32px;
         }
-        span{
+
+        span {
             text-decoration: underline;
             font-weight: bold;
             color: red;
@@ -54,14 +57,11 @@
     return list;
 }
 
-    String resToString(List<Integer> numbers) {
+    String numbersToString(List<Integer> numbers) {
         StringBuilder sb = new StringBuilder();
-        String out = "";
         for (int n : numbers) {
             sb.append(n + "|");
-//            out += n + "|";
         }
-//        return out;
         return sb.toString();
     }
 %>
@@ -70,26 +70,26 @@
 <%= result%>
 <div>
     <p> Old numbers </p>
-<%
-    Cookie[] cookies = request.getCookies();
-    int counter = 0;
-    if (cookies != null && cookies.length > 0) {
+    <%
+        Cookie[] cookies = request.getCookies();
+        int counter = 0;
+        if (cookies != null && cookies.length > 0) {
 
-        for (Cookie c : cookies) {
-            if (c.getName().contains("number")) {
-                Set<Integer> current = np.parseNumbers(c.getValue());
-                Iterator<Integer> iterator = current.iterator();
-                while (iterator.hasNext()){
-                    int n = iterator.next();
-                    if(result.contains(n)){
-                        %><span><%out.println(n);%></span><%
-                    }else{
-                        out.println(n);
-                    }
-                }
-//                out.println(c.getValue());
-                response.addCookie(new Cookie("number" + counter, c.getValue()));
-                counter++;
+            for (Cookie c : cookies) {
+                if (c.getName().contains("number")) {
+                    Set<Integer> current = np.parseNumbers(c.getValue());
+                    Iterator<Integer> iterator = current.iterator();
+                    while (iterator.hasNext()) {
+                        int n = iterator.next();
+                        if (result.contains(n)) {
+    %><span><%out.println(n);%></span><%
+        } else {
+            out.println(n);
+        }
+    }
+
+    response.addCookie(new Cookie("number" + counter, c.getValue()));
+    counter++;
 %><br><%
             }
         }
@@ -98,8 +98,7 @@
 </div>
 <p> new numbers</p>
 <%
-
-    String newNumbers = resToString(randomize());
+    String newNumbers = numbersToString(randomize());
     out.println(newNumbers);
     response.addCookie(new Cookie("number" + counter, newNumbers));
 %>

@@ -16,10 +16,7 @@ public class FetchJSON {
     public FetchJSON() throws MalformedURLException {
     }
 
-
     private void openConnection() throws IOException {
-
-
         this.connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("GET");
     }
@@ -41,8 +38,6 @@ public class FetchJSON {
         input.close();
         return response.toString();
     }
-
-
 
     public static void main(String[] args) throws IOException {
         FetchJSON f= new FetchJSON();
