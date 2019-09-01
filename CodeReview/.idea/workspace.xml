@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10002bf-4509-4717-983f-536e13868894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/BukszpanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/ConiferTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/LeafTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/TreeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/MovieImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Netflix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/MyButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/NullComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/UIComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/UIComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/InternetShop/src/main/java/com/example/internetshop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/InternetShop/src/main/resources/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/MobilAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/SoundBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/Tv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/ArticleMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/ArticleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/EditorMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/FontColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ChristmassShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ItemElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ShoppingCartApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/WashingMashine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Netflix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Netflix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA8Features/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Servlety3/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Servlety3/.idea/encodings.xml" beforeDir="false" />
@@ -33,8 +34,10 @@
       <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/webapp/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Servlety3/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/InternetShop/src/main/java/com/example/internetshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/InternetShop/src/main/java/com/example/internetshop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring/InternetShop/src/main/java/com/example/internetshop/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/InternetShop/src/main/java/com/example/internetshop/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring/InternetShop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/InternetShop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/InternetShop/src/main/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/InternetShop/src/main/resources/configuration.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,109 +53,114 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/Tree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Editor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/LeafTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state>
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/ConiferTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ItemElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/WashingMashine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/TreeFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Laptop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="238">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/MovieImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Netflix.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/FontColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/EditorMemento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/BukszpanTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/UIComponentFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -179,28 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SDA/dataStructure/myQueue/Shop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/ChocolateDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/MilkDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Coffe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Decorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/CarDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/Chevrolet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/ChangeWheels.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/ChangeSpoiler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/ChangeColor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyCompozite/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Director.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/SeniorDeveloper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/JuniorDeveloper.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN200.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN20.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/havingMoneySimulator/PLN50.java" />
@@ -228,8 +214,30 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/TreeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/MovieFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Netflix.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/MovieImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Netflix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/MobilAble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/SoundBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/Mobile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/Tv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/System.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/ArticleState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/ArticleMemento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/ArticleMemento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/FontSize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/FontColor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/FontMemento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/EditorMemento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Editor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ItemElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ShoppingCartApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Laptop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/WashingMashine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ChristmassShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Test.java" />
       </list>
     </option>
   </component>
@@ -255,8 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,23 +313,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeReview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeReview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="wizytator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,13 +358,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Netflix">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.App" />
+  <component name="RunManager" selected="Application.Test (2)">
+    <configuration name="ChristmassShoppingCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.wizytator.ChristmassShoppingCart" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.*" />
+          <option name="PATTERN" value="SDA.designPatterns.wizytator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.paintObiektNull.Main" />
+    <configuration name="Mobile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.abstractSerwer.phoneController.Mobile" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.designPatterns.paintObiektNull.*" />
+          <option name="PATTERN" value="SDA.designPatterns.abstractSerwer.phoneController.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.curierMediator.Main" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.memento.textEditor.Test" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.designPatterns.curierMediator.*" />
+          <option name="PATTERN" value="SDA.designPatterns.memento.textEditor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -401,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Netflix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.flyweight.netflix.Netflix" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.wizytator.Test" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.designPatterns.flyweight.netflix.*" />
+          <option name="PATTERN" value="SDA.designPatterns.wizytator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,12 +411,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.flyweight.flyweightTrees.TreeFactory" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.designPatterns.memento.article.Test" />
       <module name="CodeReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.designPatterns.flyweight.flyweightTrees.*" />
+          <option name="PATTERN" value="SDA.designPatterns.memento.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,19 +425,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.TreeFactory" />
-      <item itemvalue="Application.Netflix" />
+      <item itemvalue="Application.Mobile" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.ChristmassShoppingCart" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Netflix" />
-        <item itemvalue="Application.TreeFactory" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.ChristmassShoppingCart" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Mobile" />
       </list>
     </recent_temporary>
   </component>
@@ -459,18 +456,23 @@
       <workItem from="1565201563926" duration="29000" />
       <workItem from="1566027566602" duration="2161000" />
       <workItem from="1566037987164" duration="649000" />
-      <workItem from="1566630168973" duration="4490000" />
+      <workItem from="1566630168973" duration="4911000" />
+      <workItem from="1566718293462" duration="1149000" />
+      <workItem from="1566719501119" duration="588000" />
+      <workItem from="1566748991814" duration="30000" />
+      <workItem from="1567235324908" duration="6053000" />
+      <workItem from="1567321366425" duration="3035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13453000" />
+    <option name="totallyTimeSpent" value="24729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24124514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21725032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -480,13 +482,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32635984" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2608089" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32775453" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32914925" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" weight="0.32925472" />
@@ -505,7 +507,7 @@
       <window_info anchor="right" id="Database" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13618676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25875485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -515,15 +517,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32664436" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32635984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32775453" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32914925" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -544,173 +546,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/myQueue/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/myBrowser/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/dataStructure/extractUnique/extractUnique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Coffe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/MilkDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/ChocolateDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/coffeDecorator/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/CarDecorator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/Chevrolet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/ChangeWheels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/ChangeSpoiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/carDecorator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/companyComposite/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -900,46 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/UIComponentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/BukszpanTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/ConiferTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,16 +753,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/ConiferTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/TreeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="704">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -973,25 +775,239 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/MovieImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/SoundBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/MobilAble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/Tv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/flyweightTrees/BukszpanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/paintObiektNull/UIComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/curierMediator/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/ArticleState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/abstractSerwer/phoneController/Mobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/flyweight/netflix/Netflix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/ArticleMemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Editor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/FontColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/EditorMemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/article/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/memento/textEditor/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ItemElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/WashingMashine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ChristmassShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/ShoppingCartApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Laptop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/designPatterns/wizytator/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>

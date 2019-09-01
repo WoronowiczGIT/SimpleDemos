@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Netflix {
-
+    // change map for file
     private Map<String,Movie> cachedMovies = new HashMap<>();
 
     public Movie getMovie(String title) throws InterruptedException {
@@ -48,6 +48,9 @@ public class Netflix {
         myMovie.showMovie();
 
         myMovie = n.getMovie("DarkTower");
+        myMovie.showMovie();
+
+        myMovie = n.getMovie("XXX");
         myMovie.showMovie();
     }
 }
