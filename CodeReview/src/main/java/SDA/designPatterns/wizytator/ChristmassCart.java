@@ -1,6 +1,7 @@
 package SDA.designPatterns.wizytator;
 
 public class ChristmassCart implements CartVisitor {
+
     @Override
     public int visit(Laptop laptop) {
         int discount = (laptop.getPrice() / 500) * 50;
@@ -17,5 +18,4 @@ public class ChristmassCart implements CartVisitor {
             return washingMashine.getPrice();
         }
     }
-
 }
